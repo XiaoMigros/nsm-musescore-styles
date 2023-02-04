@@ -2,6 +2,7 @@
 A collection of MuseScore 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
 ## Changelog
+- MU3  (02/03/22): Added templates for MuseScore 3
 - v1.4 (12/23/22): Overhauled text positioning system, various other engraving adjustments
 - v1.3 (12/22/22): Page numbers are now automatically the correct size
 - v1.2 (12/20/22): Improved page margins + accompanying text positions, cleaned up the sheet's metadata to allow for a smoother import
