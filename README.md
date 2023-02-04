@@ -2,6 +2,8 @@
 A collection of MuseScore 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
 ## Changelog
+- v1.3 (12/22/22): Page numbers are now automatically the correct size
+- v1.2 (12/20/22): Improved page margins + accompanying text positions, cleaned up the sheet's metadata to allow for a smoother import
 - v1.1 (12/19/22): Incorporation of staff size, page settings & engraving settings
 - v1.0 (10/25/22): Basic formatting adjustments and use of Finale Maestro music font
 
