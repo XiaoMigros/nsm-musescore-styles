@@ -3,6 +3,7 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 
 ## Changelog
 - Copyright Plugin (02/26/23): Generates copyright text in the NSM format
+- v1.6 (02/16/23): Readjusted stave size, other minor page spacing improvements
 - v1.5 (02/04/23): Improved first system indent, complete replacement of musescore-only text fonts, automatic ottava bassa hooks.
 - Tempo markings now include a pre-formatted expression option, and volta text now works in the MU3 templates.
 - MU3 (02/03/23): Added templates for MuseScore 3 (missing Finale Maestro music font & other minor engraving settings)
