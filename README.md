@@ -2,9 +2,10 @@
 A collection of MuseScore 3 &amp; 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
 ## Changelog
-- v1.5 (02/04/22): Improved first system indent, complete replacement of musescore-only text fonts, automatic ottava bassa hooks.
+- Copyright Plugin (02/26/23): Generates copyright text in the NSM format
+- v1.5 (02/04/23): Improved first system indent, complete replacement of musescore-only text fonts, automatic ottava bassa hooks.
 - Tempo markings now include a pre-formatted expression option, and volta text now works in the MU3 templates.
-- MU3 (02/03/22): Added templates for MuseScore 3 (missing Finale Maestro music font & other minor engraving settings)
+- MU3 (02/03/23): Added templates for MuseScore 3 (missing Finale Maestro music font & other minor engraving settings)
 - v1.4 (12/23/22): Overhauled text positioning system, various other engraving adjustments
 - v1.3 (12/22/22): Page numbers are now automatically the correct size
 - v1.2 (12/20/22): Improved page margins + accompanying text positions, cleaned up the sheet's metadata to allow for a smoother import
