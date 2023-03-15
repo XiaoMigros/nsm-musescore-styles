@@ -2,7 +2,7 @@
 A collection of MuseScore 3 &amp; 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
 ## Changelog
-- v1.7 (03/15/23): Improved compatibility with multiple instruments, improved tuplet settings, other minor fixes
+- v1.7 (03/15/23): Improved compatibility with multiple instruments, improved tuplet settings, other minor fixes<br/>MU3 files received some changes I had previously missed
 - Copyright Plugin (02/26/23): Generates copyright text in the NSM format
 - v1.6 (02/16/23): Readjusted stave size, other minor page spacing improvements
 - v1.5 (02/04/23): Improved first system indent, complete replacement of musescore-only text fonts, automatic ottava bassa hooks.
