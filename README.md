@@ -1,6 +1,8 @@
 # [NinSheetMusic MuseScore Styles](https://www.ninsheetmusic.org/forum/index.php?topic=12538)
 A collection of MuseScore 3 &amp; 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
+![Example of the template in use](/examples/templates-v2.0.png)
+
 ## Changelog
 ### v2.0 (03/28/23)
 - Rescaled almost all text and engraving options to match Finale's system scaling
