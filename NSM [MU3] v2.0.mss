@@ -133,7 +133,7 @@
     <keyTimesigDistance>1.5</keyTimesigDistance>
     <keyBarlineDistance>0.5</keyBarlineDistance>
     <systemHeaderDistance>1.25</systemHeaderDistance>
-    <systemHeaderTimeSigDistance>0.5</systemHeaderTimeSigDistance>
+    <systemHeaderTimeSigDistance>1.25</systemHeaderTimeSigDistance>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
     <stemWidth>0.075</stemWidth>
