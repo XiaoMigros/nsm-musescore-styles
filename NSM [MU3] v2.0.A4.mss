@@ -132,8 +132,8 @@
     <clefTimesigDistance>1</clefTimesigDistance>
     <keyTimesigDistance>1.5</keyTimesigDistance>
     <keyBarlineDistance>0.5</keyBarlineDistance>
-    <systemHeaderDistance>1.25</systemHeaderDistance>
-    <systemHeaderTimeSigDistance>1.25</systemHeaderTimeSigDistance>
+    <systemHeaderDistance>1.75</systemHeaderDistance>
+    <systemHeaderTimeSigDistance>1.75</systemHeaderTimeSigDistance>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
     <stemWidth>0.075</stemWidth>
