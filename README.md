@@ -4,6 +4,9 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
+### Tempo Generator Plugin
+- This new plugin allows for tempo expressions, metric modulations, and BPM indications to be added in the correct format with relative ease (MuseScore 4 doesn't allow precise enough input to do this regularly)
+- The copyright plugin was updated as well so both plugins are nested in MuseScore 3
 ### v2.0 (03/28/23)
 - Rescaled almost all text and engraving options to match Finale's system scaling
 - further improved tuplet settings
