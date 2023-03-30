@@ -6,7 +6,7 @@ import QtQuick.Layouts 1.0
 import Qt.labs.settings 1.0
 
 MuseScore {
-	menuPath: "Plugins.NSM Copyright Generator"
+	menuPath: "Plugins." + qsTr("NSM Tools") + qsTr("Add Copyright Text")
 	version: "1.0"
     description: qsTr("Generates copyright text in the https://NinSheetMusic.org/ format.")
 	requiresScore: true
