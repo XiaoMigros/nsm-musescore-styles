@@ -51,3 +51,5 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 Template file: Place the file in MuseScore's 'Templates' folder and/or create a copy of the file for each new score you create.
 
 Style file: Place the file in MuseScore's 'Styles' folder. Open it with 'Format/Load Style', or set it as your default style under 'Preferences/Score/Style'.
+
+Plugins: Place the 'NSM Tools' folder in MuseScore's 'Plugins' folder, then follow the standard plugin installation process for your MuseScore version.
