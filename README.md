@@ -65,4 +65,4 @@ Template file: Place the file in MuseScore's 'Templates' folder and/or create a 
 Style file: Place the file in MuseScore's 'Styles' folder. Open it with 'Format/Load Style', or set it as your default style under 'Preferences/Score/Style'.
 
 Plugins: Place the 'NSM Tools' folder in MuseScore's 'Plugins' folder, then follow the standard plugin installation process for your MuseScore version.
-[https://musescore.org/handbook/3/plugins#installation]([MuseScore 3]) [https://musescore.org/handbook/3/plugins#installation]([MuseScore 4])
+[https://musescore.org/handbook/3/plugins#installation](MuseScore 3) [https://musescore.org/handbook/3/plugins#installation](MuseScore 4)
