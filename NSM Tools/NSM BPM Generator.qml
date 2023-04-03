@@ -12,6 +12,7 @@ MuseScore {
 	menuPath: "Plugins." + qsTr("NSM Tools") + "." + qsTr("Add Tempo Marking")
 	description: qsTr("Adds a Tempo/BPM Marking in the https://NinSheetMusic.org/ standard.")
 	version: "1.0"
+	requiresScore: true
 	property var cursor
 	property int spacing: 10
 	property int pContentWidth: 240
@@ -43,7 +44,7 @@ MuseScore {
 				width: pContentWidth
 				anchors.horizontalCenter: parent.horizontalCenter
 				
-				Label {id: eLabel; text: qsTr("Expression:")}
+				Label {id: eLabel; text: qsTranslate("Ms::MuseScore", "Expression") + ":"}
 				
 				TextField {
 					id: expressionField
@@ -147,7 +148,7 @@ MuseScore {
 	
 	function writeTempo() {
 		var bpmNoteLength = bpmTypeBox.model.get(bpmTypeBox.currentIndex).fact
-		var actBpm = Math.round(100 * parseFloat(bpmField.text) * bpmNoteLength / 4 / 60) / 100
+		var actBpm = parseFloat(bpmField.text) * bpmNoteLength * 4 / 60
 		
 		var style = curScore.style
 		
@@ -183,6 +184,9 @@ MuseScore {
 			+ (metronomeStyle.fontStyle ? ("<" + metronomeStyle.fontStyle + ">") : "")) : ("")
 			
 		var tempoText = expressionText + modulationText + bpmText
+		if (mscoreMajorVersion >= 4) {
+			tempoText = tempoText.replace(/<sym>space<\/sym>/g, "")
+		}
 		console.log(tempoText)
 		
 		if (tempoText != "") {
@@ -199,7 +203,6 @@ MuseScore {
 					addTempo = false
 				}
 			}
-			addTempo = true
 			tempoElement.sizeSpatiumDependent = (style.value("tempoFontSpatiumDependent") == 1)
 			tempoElement.fontStyle = style.value("metronomeFontStyle")
 			tempoElement.text = tempoText
@@ -210,7 +213,8 @@ MuseScore {
 			} else {console.log("modified existing tempo element")}
 			//changing of tempo can only happen after being added to the segment
 			tempoElement.tempo = actBpm
-			tempoElement.followText = true
+			tempoElement.tempoFollowText = true
+			delete tempoElement
 			curScore.endCmd()
 		}
 	}//writeTempo

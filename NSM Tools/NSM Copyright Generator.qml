@@ -30,7 +30,7 @@ MuseScore {
 			columns:		2
 			
 			Label {text: "Line 1"}
-			
+			//use textarea multiline instead?
 			TextField {id: line1; implicitWidth: 240; placeholderText: "Company © YEAR"; text: "Company © YEAR"}
 			
 			Label {text: "Line 2"}

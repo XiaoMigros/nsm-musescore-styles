@@ -4,9 +4,21 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
-### Tempo Generator Plugin
+
+### 8va Aligner Plugin (04/03/23)
+- This new plugin neatly repositions ottavas' text and line to be closer in line with Finale's standard. Select individual 8va markings or a range of measures and run the plugin!
+- The plugin detects whether va or vb is being used and adjusts the positions accordingly
+- Compatible with MuseScore 3.3 and later
+- MuseScore 4 users will need to make sure that one the template files is applied first
+### Tempo Generator v1.1 (04/03/23)
+- Editing the BPM marking after creation now affects the in-score tempo
+- Fixed mistakes in non-q BPM values
+- Improved visuals for dots in MuseScore 3
+- Minor code improvements
+### Tempo Generator Plugin (03/30/23)
 - This new plugin allows for tempo expressions, metric modulations, and BPM indications to be added in the correct format with relative ease (MuseScore 4 doesn't allow precise enough input to do this regularly)
 - The plugin detects and replaces existing tempo markings if necessary
+- For correct formatting please to make sure that one the template files is applied first
 - The copyright plugin was updated as well so both plugins are nested in MuseScore 3
 ### v2.0 (03/28/23)
 - Rescaled almost all text and engraving options to match Finale's system scaling
@@ -53,3 +65,4 @@ Template file: Place the file in MuseScore's 'Templates' folder and/or create a 
 Style file: Place the file in MuseScore's 'Styles' folder. Open it with 'Format/Load Style', or set it as your default style under 'Preferences/Score/Style'.
 
 Plugins: Place the 'NSM Tools' folder in MuseScore's 'Plugins' folder, then follow the standard plugin installation process for your MuseScore version.
+[https://musescore.org/handbook/3/plugins#installation]([MuseScore 3]) [https://musescore.org/handbook/3/plugins#installation]([MuseScore 4])
