@@ -5,6 +5,10 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 
 ## Changelog
 
+### Staccato Aligner Plugin (04/07/23)
+- This new plugin centers stem-side staccatos over the notehead rather than the stem, as is customary in older Finale versions.
+- The plugin applies itself to a selection
+- It doesn't yet work in MuseScore 4
 ### 8va Aligner Plugin (04/03/23)
 - This new plugin neatly repositions ottavas' text and line to be closer in line with Finale's standard. Select individual 8va markings or a range of measures and run the plugin!
 - The plugin detects whether va or vb is being used and adjusts the positions accordingly
