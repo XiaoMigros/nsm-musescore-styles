@@ -5,6 +5,10 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 
 ## Changelog
 
+### Repeat Dot Aligner Plugin (05/04/23)
+- This plugin adjusts the position of repeat dots to match the desired height, as they appear too low down when using Finale Maestro/Broadway music fonts.
+- Select one or more barlines, repeats or not, and run the plugin!
+- MuseScore 4 only.
 ### Staccato Aligner Plugin (04/07/23)
 - This new plugin centers stem-side staccatos over the notehead rather than the stem, as is customary in older Finale versions.
 - The plugin applies itself to a selection
