@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU4] v2.0                -->
+<!-- NSM [MU4] v2.1                -->
 <!-- Page size: A4                 -->
 <!-- Copyright (C) 2023 XiaoMigros -->
 <!-- ToDo:
 - further improve auto spacing settings
-- Mu4.1: fix bottom margin size (it will account for copyright)
-- work out system behind dynamic size
+- Mu4.1: fix bottom margin size (it will account for copyright): already fixed, but check page 2+
+- work out system behind dynamic size and in hairpin context
+- fix pedal text size
+- make sure note distances are correct
 -->
 <!-- Changelog:
 - improved positioning of tuplets
@@ -18,12 +20,13 @@
 - added defaults for system spacing (auto- and non-auto-spacing)
 - improved positioning defaults for various markings
 - improved slur/tie thickness
+- improved distance between dots
 -->
 
 <museScore version="4.00">
   <Style>
-    <pageWidth>8.27</pageWidth>
-    <pageHeight>11.69</pageHeight>
+    <pageWidth>8.26771</pageWidth>
+    <pageHeight>11.69291</pageHeight>
     <pagePrintableWidth>7.17945</pagePrintableWidth>
     <pageEvenLeftMargin>0.59028</pageEvenLeftMargin>
     <pageOddLeftMargin>0.59028</pageOddLeftMargin>
@@ -34,7 +37,7 @@
     <pageTwosided>0</pageTwosided>
     <staffUpperBorder>12</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
-    <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
+    <staffHeaderFooterPadding>2.5</staffHeaderFooterPadding>
     <staffDistance>7.788</staffDistance>
     <instrumentNameOffset>1</instrumentNameOffset>
     <akkoladeDistance>7.788</akkoladeDistance>
@@ -174,14 +177,14 @@
     <keysigAccidentalDistance>0.333</keysigAccidentalDistance>
     <keysigNaturalDistance>0.333</keysigNaturalDistance>
     <beamWidth>0.5</beamWidth>
-    <useWideBeams>1</useWideBeams>
+    <useWideBeams>0</useWideBeams>
     <beamMinLen>0.93</beamMinLen>
     <beamNoSlope>0</beamNoSlope>
     <snapCustomBeamsToGrid>1</snapCustomBeamsToGrid>
     <dotMag>1</dotMag>
     <dotNoteDistance>0.333</dotNoteDistance>
     <dotRestDistance>0.333</dotRestDistance>
-    <dotDotDistance>0.333</dotDotDistance>
+    <dotDotDistance>0.833</dotDotDistance>
     <propertyDistanceHead>0.5</propertyDistanceHead>
     <propertyDistanceStem>0.5</propertyDistanceStem>
     <propertyDistance>0.5</propertyDistance>
@@ -460,8 +463,8 @@ Page $P/$n</evenFooterC>
     <ottava22MBPlacement>1</ottava22MBPlacement>
     <ottava8VAText>&lt;sym&gt;ottavaAlta&lt;/sym&gt;</ottava8VAText>
     <ottava8VAContinueText>(&lt;sym&gt;ottavaAlta&lt;/sym&gt;)</ottava8VAContinueText>
-    <ottava8VBText>&lt;sym&gt;ottavaAlta&lt;/sym&gt;</ottava8VBText>
-    <ottava8VBContinueText>(&lt;sym&gt;ottavaAlta&lt;/sym&gt;)</ottava8VBContinueText>
+    <ottava8VBText>&lt;sym&gt;ottavaBassaVb&lt;/sym&gt;</ottava8VBText>
+    <ottava8VBContinueText>(&lt;sym&gt;ottavaBassaVb&lt;/sym&gt;)</ottava8VBContinueText>
     <ottava15MAText>&lt;sym&gt;quindicesimaAlta&lt;/sym&gt;</ottava15MAText>
     <ottava15MAContinueText>(&lt;sym&gt;quindicesimaAlta&lt;/sym&gt;)</ottava15MAContinueText>
     <ottava15MBText>&lt;sym&gt;quindicesimaBassa&lt;/sym&gt;</ottava15MBText>
@@ -978,7 +981,7 @@ Page $P/$n</evenFooterC>
     <systemTextLineTextAlign>left,center</systemTextLineTextAlign>
     <systemTextLineSystemFlag>1</systemTextLineSystemFlag>
     <glissandoFontFace>Times New Roman</glissandoFontFace>
-    <glissandoFontSize>0</glissandoFontSize>
+    <glissandoFontSize>7</glissandoFontSize>
     <glissandoLineSpacing>1</glissandoLineSpacing>
     <glissandoFontSpatiumDependent>1</glissandoFontSpatiumDependent>
     <glissandoFontStyle>2</glissandoFontStyle>

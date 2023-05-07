@@ -5,6 +5,11 @@ A collection of MuseScore 3 &amp; 4 template and style files aimed at looking li
 
 ## Changelog
 
+### Staccato Aligner Plugin v2.0 (05/07/23)
+- The plugin now works in MuseScore 4 (and requires at least MuseScore 3.5)
+- The plugin is much less intrusive, both visually and behind the scenes
+### v2.1 (05/07/23)
+- Minor fixes to the v2.0 changes
 ### Staccato Aligner Plugin (04/07/23)
 - This new plugin centers stem-side staccatos over the notehead rather than the stem, as is customary in older Finale versions.
 - The plugin applies itself to a selection

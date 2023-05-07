@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU3] v2.0                -->
+<!-- NSM [MU3] v2.1                -->
 <!-- Page size: A4                 -->
 <!-- Copyright (C) 2023 XiaoMigros -->
 <!-- ToDo:
@@ -9,24 +9,16 @@
 - work out system behind dynamic size/barNoteDistance
 -->
 <!-- Changelog:
-- improved positioning of tuplets
-- added positioning of grace notes
-- rescaled most things by 77% (Finale's system scaling)
-- improved default settings for arranger text
-- repositioning of first page text
-- improved default settings for glissandos (hidden text with font size 0)
-- added defaults for system spacing (auto- and non-auto-spacing)
-- improved positioning defaults for various markings
-- improved slur/tie thickness
+- fixed various small errors
 -->
 
 <museScore version="3.02">
   <Style>
-    <pageWidth>8.27</pageWidth>
-    <pageHeight>11.69</pageHeight>
+    <pageWidth>8.26771</pageWidth>
+    <pageHeight>11.69291</pageHeight>
     <pagePrintableWidth>7.17945</pagePrintableWidth>
-    <pageEvenLeftMargin>0.59028</pageEvenLeftMargin> <!-- MU3 accounts for brace in margins-->
-    <pageOddLeftMargin>0.59028</pageOddLeftMargin>
+    <pageEvenLeftMargin>0.5</pageEvenLeftMargin> <!-- MU3 accounts for brace in margins-->
+    <pageOddLeftMargin>0.5</pageOddLeftMargin>
     <pageEvenTopMargin>0.5</pageEvenTopMargin>
     <pageEvenBottomMargin>0.5</pageEvenBottomMargin>
     <pageOddTopMargin>0.5</pageOddTopMargin>
@@ -132,8 +124,8 @@
     <clefTimesigDistance>1</clefTimesigDistance>
     <keyTimesigDistance>1.5</keyTimesigDistance>
     <keyBarlineDistance>0.5</keyBarlineDistance>
-    <systemHeaderDistance>1.75</systemHeaderDistance>
-    <systemHeaderTimeSigDistance>1.75</systemHeaderTimeSigDistance>
+    <systemHeaderDistance>1.5</systemHeaderDistance>
+    <systemHeaderTimeSigDistance>1.5</systemHeaderTimeSigDistance>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
     <stemWidth>0.075</stemWidth>
@@ -161,7 +153,7 @@
     <dotMag>1</dotMag>
     <dotNoteDistance>0.333</dotNoteDistance>
     <dotRestDistance>0.333</dotRestDistance>
-    <dotDotDistance>0.333</dotDotDistance>
+    <dotDotDistance>0.833</dotDotDistance>
     <propertyDistanceHead>0.5</propertyDistanceHead>
     <propertyDistanceStem>0.5</propertyDistanceStem>
     <propertyDistance>0.5</propertyDistance>
@@ -929,7 +921,7 @@ Page $P/$n</evenFooterC>
     <systemTextLineTextAlign>left,center</systemTextLineTextAlign>
     <systemTextLineSystemFlag>1</systemTextLineSystemFlag>
     <glissandoFontFace>Times New Roman</glissandoFontFace>
-    <glissandoFontSize>0</glissandoFontSize>
+    <glissandoFontSize>7</glissandoFontSize>
     <glissandoLineSpacing>1</glissandoLineSpacing>
     <glissandoFontSpatiumDependent>1</glissandoFontSpatiumDependent>
     <glissandoFontStyle>2</glissandoFontStyle>
