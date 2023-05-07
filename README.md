@@ -1,15 +1,18 @@
 # [NinSheetMusic MuseScore Styles](https://www.ninsheetmusic.org/forum/index.php?topic=12538)
-A collection of MuseScore 3 &amp; 4 template and style files aimed at looking like the NinSheetMusic.org standard.
+A collection of MuseScore 3 & 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
-
 ### Staccato Aligner Plugin v2.0 (05/07/23)
 - The plugin now works in MuseScore 4 (and requires at least MuseScore 3.5)
 - The plugin is much less intrusive, both visually and behind the scenes
 ### v2.1 (05/07/23)
 - Minor fixes to the v2.0 changes
+### Repeat Dot Aligner Plugin (05/04/23)
+- This plugin adjusts the position of repeat dots to match the desired height, as they appear too low down when using Finale Maestro/Broadway music fonts.
+- Select one or more barlines, repeats or not, and run the plugin!
+- MuseScore 4 only.
 ### Staccato Aligner Plugin (04/07/23)
 - This new plugin centers stem-side staccatos over the notehead rather than the stem, as is customary in older Finale versions.
 - The plugin applies itself to a selection
