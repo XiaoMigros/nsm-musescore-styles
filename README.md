@@ -4,6 +4,14 @@ A collection of MuseScore 3 & 4 template and style files aimed at looking like t
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
+### v2.2 (06/07/23)
+- Page margins have further been improved, content is now centered on the page
+- Positioning of accidentals has been adjusted
+- Improved sizes for text items such as dynamics, codas/segnos, measure numbers & volta numbers
+- Parentheses on 8va markings now 'hug' the symbol more nicely
+- (MU4 only) The dashes on 8va lines now match Finale's settings
+- (MU3 only) Fixed spacing issues concerning thick and repeat barlines
+- Other minor improvements
 ### [Staccato Aligner Plugin v2.0 (05/07/23)](https://musescore.org/en/project/center-stem-side-staccatos-over-notehead)
 - The plugin now works in MuseScore 4 (and requires at least MuseScore 3.5)
 - The plugin is much less intrusive, both visually and behind the scenes
