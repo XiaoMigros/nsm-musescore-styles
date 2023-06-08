@@ -26,7 +26,7 @@
   <Style>
     <pageWidth>8.26771</pageWidth>
     <pageHeight>11.69291</pageHeight>
-    <pagePrintableWidth>7.17945</pagePrintableWidth>
+    <pagePrintableWidth>7.26771</pagePrintableWidth>
     <pageEvenLeftMargin>0.5</pageEvenLeftMargin> <!-- MU3 accounts for brace in margins-->
     <pageOddLeftMargin>0.5</pageOddLeftMargin>
     <pageEvenTopMargin>0.5</pageEvenTopMargin>
