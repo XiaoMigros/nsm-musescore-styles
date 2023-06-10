@@ -1,6 +1,8 @@
 # [NinSheetMusic MuseScore Styles](https://www.ninsheetmusic.org/forum/index.php?topic=12538)
 A collection of MuseScore 3 & 4 template and style files aimed at looking like the NinSheetMusic.org standard.
 
+### [Download Latest Version](https://github.com/XiaoMigros/nsm-musescore-styles/archive/main.zip)
+
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
