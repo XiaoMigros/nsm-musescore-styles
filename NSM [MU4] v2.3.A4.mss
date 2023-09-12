@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU4] v2.2                -->
-<!-- Page size: Letter / ANSI A    -->
+<!-- NSM [MU4] v2.3                -->
+<!-- Page size: A4                 -->
 <!-- Copyright (C) 2023 XiaoMigros -->
 <!-- ToDo:
 - further improve auto spacing settings
@@ -9,27 +9,22 @@
 - fix pedal text size (waiting for fixed symbols)
 - make sure note distances are correct
 - wait for tuplets to incorporate symbols instead of nums
+- check bpm note size
 -->
 <!-- Changelog:
-- readjusted page margins and brace positioning
-- improved positioning of accidentals
-- improved text size of dynamics, esp. with haipins
-- improved size of codas and segnos
-- improved text size and positioning of voltas
-- improved text size of measure numbers
-- improved size of beamlets
-- ottava parentheses now hug the ottava rather than finishing half-way
-- ottavas line dashes are now more accurate
-- other minor adjustments
+- incorporation of Mu4.1 style settings
+- readjusted pedal sizes
+- rehearsal marks follow finale format
+- readjusted page margins to match new finale template
 -->
 
 <museScore version="4.00">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.5</pagePrintableWidth> <!-- right margin is determined by this (page width - leftmargin - printablewidth) -->
-    <pageEvenLeftMargin>0.5</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.5</pageOddLeftMargin>
+    <pageWidth>8.26771</pageWidth>
+    <pageHeight>11.69291</pageHeight>
+    <pagePrintableWidth>7.17743</pagePrintableWidth> <!-- right margin is determined by this (page width - leftmargin - printablewidth) -->
+    <pageEvenLeftMargin>0.59028</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.59028</pageOddLeftMargin>
     <pageEvenTopMargin>0.5</pageEvenTopMargin>
     <pageEvenBottomMargin>0.5</pageEvenBottomMargin>
     <pageOddTopMargin>0.5</pageOddTopMargin>
@@ -43,7 +38,7 @@
     <akkoladeDistance>7.788</akkoladeDistance>
     <minSystemDistance>9</minSystemDistance>
     <maxSystemDistance>20</maxSystemDistance>
-    <alignSystemToMargin>0</alignSystemToMargin> <!--better for page number position -->
+    <alignSystemToMargin>1</alignSystemToMargin> <!--better for page number position -->
     <enableVerticalSpread>0</enableVerticalSpread>
     <spreadSystem>2.5</spreadSystem>
     <spreadSquareBracket>1.2</spreadSquareBracket>
@@ -150,8 +145,6 @@
     <stemLengthSmall>2.833</stemLengthSmall>
     <shortStemStartLocation>1</shortStemStartLocation>
     <shortestStem>3</shortestStem>
-    <minStaffSizeForAutoStems>4</minStaffSizeForAutoStems>
-    <smallStaffStemDirection>1</smallStaffStemDirection>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
     <minNoteDistance>0.2</minNoteDistance>
     <barNoteDistance>1.25</barNoteDistance>
@@ -193,6 +186,8 @@
     <articulationAnchorDefault>2</articulationAnchorDefault>
     <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
+	<articulationStemHAlign>1</articulationStemHAlign>
+    <articulationKeepTogether>1</articulationKeepTogether>											  
     <lastSystemFillLimit>0.6</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-3"/>
@@ -230,12 +225,12 @@
     <pedalPosAbove x="0" y="-1"/>
     <pedalPosBelow x="0" y="3"/>
     <pedalLineWidth>0.075</pedalLineWidth>
-    <pedalListStyle>solid</pedalListStyle>
+	<pedalLineStyle>solid</pedalLineStyle>
     <pedalDashLineLen>4</pedalDashLineLen>
     <pedalDashGapLen>4</pedalDashGapLen>
-    <pedalHookHeight>-1.2</pedalHookHeight>
+    <pedalHookHeight>-1.08</pedalHookHeight>
     <pedalFontFace>Times New Roman</pedalFontFace>
-    <pedalFontSize>9.25</pedalFontSize>
+    <pedalFontSize>10.8</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
     <pedalFontSpatiumDependent>1</pedalFontSpatiumDependent>
     <pedalFontStyle>0</pedalFontStyle>
@@ -378,6 +373,7 @@
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
+	<multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
@@ -410,7 +406,7 @@
     <slurEndWidth>0.0375</slurEndWidth>
     <slurMidWidth>0.1875</slurMidWidth>
     <slurDottedWidth>0.075</slurDottedWidth>
-    <minTieLength>1.5</minTieLength> <!-- change back to 1 once the slur/tie distance onto new system is introduced-->
+    <minTieLength>1.5</minTieLength> <!-- Finale uses 2-->
     <slurMinDistance>0.5</slurMinDistance>
     <headerSlurTieDistance>2.5</headerSlurTieDistance>
     <sectionPause>3</sectionPause>
@@ -447,8 +443,8 @@ Page $P/$n</evenFooterC>
     <voltaFontSpatiumDependent>1</voltaFontSpatiumDependent>
     <voltaFontStyle>0</voltaFontStyle>
     <voltaColor r="0" g="0" b="0" a="255"/>
-    <voltaAlign>left,top</voltaAlign>
-    <voltaOffset x="1.5" y="1"/>
+    <voltaAlign>left,top</voltaAlign> <!-- or left, bottom -->
+    <voltaOffset x="1.5" y="1"/> <!-- or 1.5, 2 -->
     <voltaFrameType>0</voltaFrameType>
     <voltaFramePadding>0.2</voltaFramePadding>
     <voltaFrameWidth>0.1</voltaFrameWidth>
@@ -915,8 +911,8 @@ Page $P/$n</evenFooterC>
     <rehearsalMarkAlign>center,baseline</rehearsalMarkAlign>
     <rehearsalMarkFrameType>1</rehearsalMarkFrameType>
     <rehearsalMarkFramePadding>0.5</rehearsalMarkFramePadding>
-    <rehearsalMarkFrameWidth>0.2</rehearsalMarkFrameWidth>
-    <rehearsalMarkFrameRound>20</rehearsalMarkFrameRound>
+    <rehearsalMarkFrameWidth>0.075</rehearsalMarkFrameWidth>
+    <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
     <rehearsalMarkFrameFgColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>

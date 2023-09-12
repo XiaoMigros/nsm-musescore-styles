@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU4] v2.2                -->
+<!-- NSM [MU3] v2.2                -->
 <!-- Page size: A4                 -->
 <!-- Copyright (C) 2023 XiaoMigros -->
 <!-- ToDo:
 - further improve auto spacing settings
-- header and footer, particularly concerning copyright and its absence on pages 2+
-- fix pedal text size (waiting for fixed symbols)
-- make sure note distances are correct
-- wait for tuplets to incorporate symbols instead of nums
+- Mu4.1: fix bottom margin size (it will account for copyright)
+- work out system behind dynamic size/barNoteDistance
 -->
 <!-- Changelog:
-- readjusted page margins and brace positioning
-- improved positioning of accidentals
-- improved text size of dynamics, esp. with haipins
-- improved size of codas and segnos
-- improved text size and positioning of voltas
-- improved text size of measure numbers
-- improved size of beamlets
-- ottava parentheses now hug the ottava rather than finishing half-way
-- ottavas line dashes are now more accurate
-- other minor adjustments
+- readjusted pedal sizes
+- rehearsal marks follow finale format
 -->
 
-<museScore version="4.00">
+<museScore version="3.02">
   <Style>
-    <pageWidth>8.26771</pageWidth>
-    <pageHeight>11.69291</pageHeight>
-    <pagePrintableWidth>7.26771</pagePrintableWidth> <!-- right margin is determined by this (page width - leftmargin - printablewidth) -->
-    <pageEvenLeftMargin>0.5</pageEvenLeftMargin>
+    <pageWidth>8.5</pageWidth>
+    <pageHeight>11</pageHeight>
+    <pagePrintableWidth>7.5</pagePrintableWidth>
+    <pageEvenLeftMargin>0.5</pageEvenLeftMargin> <!-- MU3 accounts for brace in margins-->
     <pageOddLeftMargin>0.5</pageOddLeftMargin>
     <pageEvenTopMargin>0.5</pageEvenTopMargin>
     <pageEvenBottomMargin>0.5</pageEvenBottomMargin>
@@ -37,13 +27,10 @@
     <pageTwosided>0</pageTwosided>
     <staffUpperBorder>12</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
-    <staffHeaderFooterPadding>5</staffHeaderFooterPadding> <!-- too much? -->
     <staffDistance>7.788</staffDistance>
-    <instrumentNameOffset>1</instrumentNameOffset> <!-- correct-ish -->
     <akkoladeDistance>7.788</akkoladeDistance>
     <minSystemDistance>9</minSystemDistance>
     <maxSystemDistance>20</maxSystemDistance>
-    <alignSystemToMargin>0</alignSystemToMargin> <!--better for page number position -->
     <enableVerticalSpread>0</enableVerticalSpread>
     <spreadSystem>2.5</spreadSystem>
     <spreadSquareBracket>1.2</spreadSquareBracket>
@@ -58,7 +45,7 @@
     <lyricsPosAbove x="0" y="-2"/>
     <lyricsPosBelow x="0" y="3"/>
     <lyricsMinTopDistance>1</lyricsMinTopDistance>
-    <lyricsMinBottomDistance>1.5</lyricsMinBottomDistance>
+    <lyricsMinBottomDistance>2</lyricsMinBottomDistance>
     <lyricsMinDistance>0.25</lyricsMinDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
     <lyricsDashMinLength>0.4</lyricsDashMinLength>
@@ -110,8 +97,8 @@
     <doubleBarWidth>0.075</doubleBarWidth>
     <endBarWidth>0.5</endBarWidth>
     <doubleBarDistance>0.5</doubleBarDistance>
-    <endBarDistance>0.5</endBarDistance>
-    <repeatBarlineDotSeparation>0.5</repeatBarlineDotSeparation>
+    <endBarDistance>0.75</endBarDistance> <!-- has to account for half the thickness of thick barline-->
+    <repeatBarlineDotSeparation>0.75</repeatBarlineDotSeparation> <!-- has to account for width of the dot itself-->
     <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
@@ -138,53 +125,36 @@
     <clefTimesigDistance>1</clefTimesigDistance>
     <keyTimesigDistance>1.5</keyTimesigDistance>
     <keyBarlineDistance>0.5</keyBarlineDistance>
-    <systemHeaderDistance>1.25</systemHeaderDistance>
-    <systemHeaderTimeSigDistance>0.5</systemHeaderTimeSigDistance>
-    <systemTrailerRightMargin>0.5</systemTrailerRightMargin>
+    <systemHeaderDistance>1.5</systemHeaderDistance>
+    <systemHeaderTimeSigDistance>1.5</systemHeaderTimeSigDistance>
     <clefBarlineDistance>0.5</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
-    <useStraightNoteFlags>0</useStraightNoteFlags>
     <stemWidth>0.075</stemWidth>
     <shortenStem>1</shortenStem>
-    <stemLength>3.5</stemLength>
-    <stemLengthSmall>2.833</stemLengthSmall>
-    <shortStemStartLocation>1</shortStemStartLocation>
+    <shortStemProgression>0.25</shortStemProgression>
     <shortestStem>3</shortestStem>
-    <minStaffSizeForAutoStems>4</minStaffSizeForAutoStems>
-    <smallStaffStemDirection>1</smallStaffStemDirection>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
-    <minNoteDistance>0.2</minNoteDistance>
+    <minNoteDistance>0.5</minNoteDistance>
     <barNoteDistance>1.25</barNoteDistance>
     <barAccidentalDistance>0.5</barAccidentalDistance>
+    <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
     <noteBarDistance>1.5</noteBarDistance>
     <measureSpacing>1.5</measureSpacing>
-    <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
-    <mrNumberSeries>0</mrNumberSeries>
-    <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
-    <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
-    <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
-    <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>
     <staffLineWidth>0.075</staffLineWidth>
     <ledgerLineWidth>0.075</ledgerLineWidth>
     <ledgerLineLength>0.25</ledgerLineLength>
-    <stemSlashPosition>2</stemSlashPosition>
-    <stemSlashAngle>40</stemSlashAngle>
-    <stemSlashThickness>0.07</stemSlashThickness>
     <accidentalDistance>0.292</accidentalDistance>
     <accidentalNoteDistance>0.292</accidentalNoteDistance>
     <bracketedAccidentalPadding>0.175</bracketedAccidentalPadding>
     <alignAccidentalsLeft>0</alignAccidentalsLeft>
-    <keysigAccidentalDistance>0.175</keysigAccidentalDistance> <!-- Arbitrary, due to different calculations (only tested for sharps) -->
-    <keysigNaturalDistance>0.175</keysigNaturalDistance>
     <beamWidth>0.5</beamWidth>
-    <useWideBeams>0</useWideBeams>
+    <beamDistance>0.5</beamDistance>
     <beamMinLen>0.75</beamMinLen>
     <beamNoSlope>0</beamNoSlope>
-    <snapCustomBeamsToGrid>1</snapCustomBeamsToGrid>
     <dotMag>1</dotMag>
     <dotNoteDistance>0.333</dotNoteDistance>
     <dotRestDistance>0.333</dotRestDistance>
-    <dotDotDistance>0.833</dotDotDistance> <!-- measured weirdly, need to check-->
+    <dotDotDistance>0.833</dotDotDistance>
     <propertyDistanceHead>0.5</propertyDistanceHead>
     <propertyDistanceStem>0.5</propertyDistanceStem>
     <propertyDistance>0.5</propertyDistance>
@@ -203,7 +173,7 @@
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinWidth>0.075</hairpinWidth>
     <hairpinFontFace>Times New Roman</hairpinFontFace>
-    <hairpinFontSize>12</hairpinFontSize> <!-- 12 due to different sizing -->
+    <hairpinFontSize>9.25</hairpinFontSize>
     <hairpinLineSpacing>1</hairpinLineSpacing>
     <hairpinFontSpatiumDependent>1</hairpinFontSpatiumDependent>
     <hairpinFontStyle>2</hairpinFontStyle>
@@ -220,22 +190,17 @@
     <hairpinDecrescText>dim.</hairpinDecrescText>
     <hairpinCrescContText>(cresc.)</hairpinCrescContText>
     <hairpinDecrescContText>(dim.)</hairpinDecrescContText>
-    <hairpinLineStyle>solid</hairpinLineStyle>
-    <hairpinDashLineLen>3</hairpinDashLineLen>
-    <hairpinDashGapLen>3</hairpinDashGapLen>
-    <hairpinLineLineStyle>dashed</hairpinLineLineStyle>
-    <hairpinLineDashLineLen>7.5</hairpinLineDashLineLen>
-    <hairpinLineDashGapLen>7.5</hairpinLineDashGapLen>
+    <hairpinLineStyle>1</hairpinLineStyle>
+    <hairpinLineLineStyle>6</hairpinLineLineStyle>
     <pedalPlacement>1</pedalPlacement>
     <pedalPosAbove x="0" y="-1"/>
     <pedalPosBelow x="0" y="3"/>
     <pedalLineWidth>0.075</pedalLineWidth>
-    <pedalListStyle>solid</pedalListStyle>
-    <pedalDashLineLen>4</pedalDashLineLen>
-    <pedalDashGapLen>4</pedalDashGapLen>
-    <pedalHookHeight>-1.2</pedalHookHeight>
+    <pedalListStyle>1</pedalListStyle>
+    <pedalBeginTextOffset x="0" y="0.15"/>
+    <pedalHookHeight>-1.08</pedalHookHeight>
     <pedalFontFace>Times New Roman</pedalFontFace>
-    <pedalFontSize>9.25</pedalFontSize>
+    <pedalFontSize>10.8</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
     <pedalFontSpatiumDependent>1</pedalFontSpatiumDependent>
     <pedalFontStyle>0</pedalFontStyle>
@@ -261,6 +226,7 @@
     <harmonyPlacement>0</harmonyPlacement>
     <romanNumeralPlacement>1</romanNumeralPlacement>
     <nashvilleNumberPlacement>0</nashvilleNumberPlacement>
+    <harmonyPlay>0</harmonyPlay>
     <harmonyVoiceLiteral>1</harmonyVoiceLiteral>
     <harmonyVoicing>0</harmonyVoicing>
     <harmonyDuration>0</harmonyDuration>
@@ -350,8 +316,6 @@
     <measureNumberAllStaffs>0</measureNumberAllStaffs>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.6</graceNoteMag>
-    <graceToMainNoteDist>1</graceToMainNoteDist>
-    <graceToGraceNoteDist>0.5</graceToGraceNoteDist>
     <smallStaffMag>0.7</smallStaffMag>
     <smallClefMag>0.75</smallClefMag>
     <genClef>1</genClef>
@@ -381,41 +345,29 @@
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <mmRestNumberPos>-0.5</mmRestNumberPos>
-    <mmRestNumberMaskHBar>1</mmRestNumberMaskHBar>
-    <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
-    <mmRestHBarThickness>0.7</mmRestHBarThickness>
-    <mmRestHBarVStrokeThickness>0.2</mmRestHBarVStrokeThickness>
-    <mmRestHBarVStrokeHeight>2</mmRestHBarVStrokeHeight>
-    <oldStyleMultiMeasureRests>0</oldStyleMultiMeasureRests>
-    <mmRestOldStyleMaxMeasures>9</mmRestOldStyleMaxMeasures>
-    <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
+    <mmRestNumberPos>-1.5</mmRestNumberPos>
     <hideEmptyStaves>0</hideEmptyStaves>
-    <dontHideStavesInFirstSystem>0</dontHideStavesInFirstSystem>
+    <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>6</firstSystemIndentationValue>
     <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
-    <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
     <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
     <tenutoGateTime>100</tenutoGateTime>
     <staccatoGateTime>50</staccatoGateTime>
     <slurGateTime>100</slurGateTime>
     <ArpeggioNoteDistance>0.5</ArpeggioNoteDistance>
-    <ArpeggioAccidentalDistance>0.5</ArpeggioAccidentalDistance>
-    <ArpeggioAccidentalDistanceMin>0.33</ArpeggioAccidentalDistanceMin>
     <ArpeggioLineWidth>0.18</ArpeggioLineWidth>
     <ArpeggioHookLen>0.8</ArpeggioHookLen>
     <ArpeggioHiddenInStdIfTab>0</ArpeggioHiddenInStdIfTab>
     <slurEndWidth>0.0375</slurEndWidth>
     <slurMidWidth>0.1875</slurMidWidth>
     <slurDottedWidth>0.075</slurDottedWidth>
-    <minTieLength>1.5</minTieLength> <!-- change back to 1 once the slur/tie distance onto new system is introduced-->
+    <minTieLength>1.5</minTieLength>
     <slurMinDistance>0.5</slurMinDistance>
-    <headerSlurTieDistance>2.5</headerSlurTieDistance>
     <sectionPause>3</sectionPause>
-    <musicalSymbolFont>Finale Maestro</musicalSymbolFont>
-    <musicalTextFont>Finale Maestro Text</musicalTextFont>
+    <musicalSymbolFont>Leland</musicalSymbolFont>
+    <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
@@ -438,17 +390,15 @@ Page $P/$n</evenFooterC>
     <voltaPosAbove x="0" y="-4"/>
     <voltaHook>3</voltaHook>
     <voltaLineWidth>0.075</voltaLineWidth>
-    <voltaLineStyle>solid</voltaLineStyle>
-    <voltaDashLineLen>5</voltaDashLineLen>
-    <voltaDashGapLen>5</voltaDashGapLen>
+    <voltaLineStyle>1</voltaLineStyle>
     <voltaFontFace>Times New Roman</voltaFontFace>
     <voltaFontSize>7.7</voltaFontSize>
     <voltaLineSpacing>1</voltaLineSpacing>
     <voltaFontSpatiumDependent>1</voltaFontSpatiumDependent>
     <voltaFontStyle>0</voltaFontStyle>
     <voltaColor r="0" g="0" b="0" a="255"/>
-    <voltaAlign>left,top</voltaAlign> <!-- or left, bottom -->
-    <voltaOffset x="1.5" y="1"/> <!-- or 1.5, 2 -->
+    <voltaAlign>left,top</voltaAlign>
+    <voltaOffset x="1.5" y="1"/>
     <voltaFrameType>0</voltaFrameType>
     <voltaFramePadding>0.2</voltaFramePadding>
     <voltaFrameWidth>0.1</voltaFrameWidth>
@@ -490,9 +440,7 @@ Page $P/$n</evenFooterC>
     <ottavaHookAbove>0.5</ottavaHookAbove>
     <ottavaHookBelow>-0.5</ottavaHookBelow>
     <ottavaLineWidth>0.075</ottavaLineWidth>
-    <ottavaLineStyle>dashed</ottavaLineStyle>
-    <ottavaDashLineLen>10</ottavaDashLineLen> <!-- 0.75sp ideal, unit is multiple of line width-->
-    <ottavaDashGapLen>10</ottavaDashGapLen> <!-- 0.75sp ideal-->
+    <ottavaLineStyle>2</ottavaLineStyle>
     <ottavaNumbersOnly>0</ottavaNumbersOnly>
     <ottavaFontFace>Times New Roman</ottavaFontFace>
     <ottavaFontSize>9.25</ottavaFontSize>
@@ -500,8 +448,7 @@ Page $P/$n</evenFooterC>
     <ottavaFontSpatiumDependent>1</ottavaFontSpatiumDependent>
     <ottavaFontStyle>0</ottavaFontStyle>
     <ottavaColor r="0" g="0" b="0" a="255"/>
-    <ottavaTextAlignAbove>left,center</ottavaTextAlignAbove>
-    <ottavaTextAlignBelow>left,center</ottavaTextAlignBelow>
+    <ottavaTextAlign>left,center</ottavaTextAlign>
     <ottavaFrameType>0</ottavaFrameType>
     <ottavaFramePadding>0.2</ottavaFramePadding>
     <ottavaFrameWidth>0.1</ottavaFrameWidth>
@@ -510,13 +457,11 @@ Page $P/$n</evenFooterC>
     <ottavaFrameBgColor r="255" g="255" b="255" a="0"/>
     <tabClef>31</tabClef>
     <tremoloWidth>1.2</tremoloWidth>
-    <tremoloBoxHeight>0.5</tremoloBoxHeight>
+    <tremoloBoxHeight>0.65</tremoloBoxHeight>
     <tremoloLineWidth>0.5</tremoloLineWidth>
     <tremoloDistance>0.8</tremoloDistance>
     <tremoloStrokeStyle>1</tremoloStrokeStyle>
     <tremoloStrokeLengthMultiplier>0.5</tremoloStrokeLengthMultiplier>
-    <tremoloNoteSidePadding>1.25</tremoloNoteSidePadding>
-    <tremoloOutSidePadding>0.5</tremoloOutSidePadding>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
     <keySigNaturals>2</keySigNaturals>
@@ -533,7 +478,7 @@ Page $P/$n</evenFooterC>
     <tupletNumberType>0</tupletNumberType>
     <tupletBracketType>0</tupletBracketType>
     <tupletFontFace>Times New Roman</tupletFontFace>
-    <tupletFontSize>7</tupletFontSize> <!-- 7.7?? -->
+    <tupletFontSize>7</tupletFontSize>
     <tupletLineSpacing>1</tupletLineSpacing>
     <tupletFontSpatiumDependent>1</tupletFontSpatiumDependent>
     <tupletFontStyle>2</tupletFontStyle>
@@ -755,7 +700,7 @@ Page $P/$n</evenFooterC>
     <partInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <partInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <dynamicsFontFace>Times New Roman</dynamicsFontFace>
-    <dynamicsFontSize>10</dynamicsFontSize> <!-- correct due to different SMuFL defaults -->
+    <dynamicsFontSize>11</dynamicsFontSize> <!-- correct due to different SMuFL defaults, here ??? -->
     <dynamicsLineSpacing>1</dynamicsLineSpacing>
     <dynamicsFontSpatiumDependent>1</dynamicsFontSpatiumDependent>
     <dynamicsFontStyle>2</dynamicsFontStyle>
@@ -800,10 +745,6 @@ Page $P/$n</evenFooterC>
     <tempoFrameRound>0</tempoFrameRound>
     <tempoFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoFrameBgColor r="255" g="255" b="255" a="0"/>
-    <tempoChangeLineWidth>0.075</tempoChangeLineWidth>
-    <tempoChangeLineStyle>dashed</tempoChangeLineStyle>
-    <tempoChangeDashLineLen>7.5</tempoChangeDashLineLen>
-    <tempoChangeDashGapLen>7.5</tempoChangeDashGapLen>
     <metronomeFontFace>Times New Roman</metronomeFontFace>
     <metronomeFontSize>9.25</metronomeFontSize>
     <metronomeLineSpacing>1</metronomeLineSpacing>
@@ -897,7 +838,7 @@ Page $P/$n</evenFooterC>
     <staffAlign>left,baseline</staffAlign>
     <systemOffsetType>1</systemOffsetType>
     <staffPlacement>0</staffPlacement>
-    <staffPosAbove x="0" y="-1.5"/>
+    <staffPosAbove x="0" y="-1"/>
     <staffPosBelow x="0" y="2.5"/>
     <staffMinDistance>0.5</staffMinDistance>
     <staffFrameType>0</staffFrameType>
@@ -915,8 +856,8 @@ Page $P/$n</evenFooterC>
     <rehearsalMarkAlign>center,baseline</rehearsalMarkAlign>
     <rehearsalMarkFrameType>1</rehearsalMarkFrameType>
     <rehearsalMarkFramePadding>0.5</rehearsalMarkFramePadding>
-    <rehearsalMarkFrameWidth>0.2</rehearsalMarkFrameWidth>
-    <rehearsalMarkFrameRound>20</rehearsalMarkFrameRound>
+    <rehearsalMarkFrameWidth>0.075</rehearsalMarkFrameWidth>
+    <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
     <rehearsalMarkFrameFgColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>
@@ -924,7 +865,7 @@ Page $P/$n</evenFooterC>
     <rehearsalMarkPosBelow x="0" y="4"/>
     <rehearsalMarkMinDistance>0.5</rehearsalMarkMinDistance>
     <repeatLeftFontFace>Times New Roman</repeatLeftFontFace>
-    <repeatLeftFontSize>17</repeatLeftFontSize> <!-- for codas and segnos, value is finale * 0.77 (scaling) * 11/12 (smufl scaling differences) -->
+    <repeatLeftFontSize>17</repeatLeftFontSize>
     <repeatLeftLineSpacing>1</repeatLeftLineSpacing>
     <repeatLeftFontSpatiumDependent>1</repeatLeftFontSpatiumDependent>
     <repeatLeftFontStyle>0</repeatLeftFontStyle>
@@ -958,7 +899,7 @@ Page $P/$n</evenFooterC>
     <frameFontStyle>0</frameFontStyle>
     <frameColor r="0" g="0" b="0" a="255"/>
     <frameAlign>left,top</frameAlign>
-    <frameOffset x="0" y="0"/> <!-- y was 23.66, idk why (account for unaligned subtitle content, maybe fix?)-->
+    <frameOffset x="0" y="0"/>
     <frameFrameType>0</frameFrameType>
     <frameFramePadding>0.2</frameFramePadding>
     <frameFrameWidth>0.1</frameFrameWidth>
@@ -1286,9 +1227,8 @@ Page $P/$n</evenFooterC>
     <letRingPosAbove x="0" y="0"/>
     <letRingPosBelow x="0" y="0"/>
     <letRingLineWidth>0.075</letRingLineWidth>
-    <letRingLineStyle>dashed</letRingLineStyle>
-    <letRingDashLineLen>5</letRingDashLineLen>
-    <letRingDashGapLen>5</letRingDashGapLen>
+    <letRingLineStyle>2</letRingLineStyle>
+    <letRingBeginTextOffset x="0" y="0.15"/>
     <letRingText>let ring</letRingText>
     <letRingFrameType>0</letRingFrameType>
     <letRingFramePadding>0.2</letRingFramePadding>
@@ -1309,9 +1249,8 @@ Page $P/$n</evenFooterC>
     <palmMutePosAbove x="0" y="-4"/>
     <palmMutePosBelow x="0" y="4"/>
     <palmMuteLineWidth>0.075</palmMuteLineWidth>
-    <palmMuteLineStyle>dashed</palmMuteLineStyle>
-    <palmMuteDashLineLen>5</palmMuteDashLineLen>
-    <palmMuteDashGapLen>5</palmMuteDashGapLen>
+    <palmMuteLineStyle>2</palmMuteLineStyle>
+    <palmMuteBeginTextOffset x="0" y="0.15"/>
     <palmMuteText>P.M.</palmMuteText>
     <palmMuteFrameType>0</palmMuteFrameType>
     <palmMuteFramePadding>0.2</palmMuteFramePadding>
@@ -1339,36 +1278,8 @@ Page $P/$n</evenFooterC>
     <voltaMinDistance>1</voltaMinDistance>
     <figuredBassMinDistance>0.5</figuredBassMinDistance>
     <tupletMinDistance>0.5</tupletMinDistance>
-    <slurShowTabSimple>1</slurShowTabSimple>
-    <slurShowTabCommon>1</slurShowTabCommon>
-    <fermataShowTabSimple>1</fermataShowTabSimple>
-    <fermataShowTabCommon>1</fermataShowTabCommon>
-    <dynamicsShowTabSimple>1</dynamicsShowTabSimple>
-    <dynamicsShowTabCommon>1</dynamicsShowTabCommon>
-    <hairpinShowTabSimple>1</hairpinShowTabSimple>
-    <hairpinShowTabCommon>1</hairpinShowTabCommon>
-    <accentShowTabSimple>1</accentShowTabSimple>
-    <accentShowTabCommon>1</accentShowTabCommon>
-    <staccatoShowTabSimple>1</staccatoShowTabSimple>
-    <staccatoShowTabCommon>1</staccatoShowTabCommon>
-    <harmonicMarkShowTabSimple>1</harmonicMarkShowTabSimple>
-    <harmonicMarkShowTabCommon>1</harmonicMarkShowTabCommon>
-    <letRingShowTabSimple>1</letRingShowTabSimple>
-    <letRingShowTabCommon>1</letRingShowTabCommon>
-    <palmMuteShowTabSimple>1</palmMuteShowTabSimple>
-    <palmMuteShowTabCommon>1</palmMuteShowTabCommon>
-    <rasgueadoShowTabSimple>1</rasgueadoShowTabSimple>
-    <rasgueadoShowTabCommon>1</rasgueadoShowTabCommon>
-    <mordentShowTabSimple>1</mordentShowTabSimple>
-    <mordentShowTabCommon>1</mordentShowTabCommon>
-    <turnShowTabSimple>1</turnShowTabSimple>
-    <turnShowTabCommon>1</turnShowTabCommon>
-    <wahShowTabSimple>1</wahShowTabSimple>
-    <wahShowTabCommon>1</wahShowTabCommon>
-    <golpeShowTabSimple>1</golpeShowTabSimple>
-    <golpeShowTabCommon>1</golpeShowTabCommon>
-    <chordlineThickness>0.006</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
+    <usePre_3_6_defaults>0</usePre_3_6_defaults>
     <defaultsVersion>302</defaultsVersion>
     <Spatium>1.6316</Spatium>
     </Style>

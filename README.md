@@ -6,6 +6,11 @@ A collection of MuseScore 3 & 4 template and style files aimed at looking like t
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
+### v2.3 (09/12/23)
+- Incorporation of MuseScore 4.1 style settings: Staccatos now align over the notehead
+- Rehearsal marks now match the look of Finale
+- Pedal sizes have been improved
+- Margins in the Mu4 templates match the new Finale templates
 ### v2.2 (06/07/23)
 - Page margins have further been improved, content is now centered on the page
 - Positioning of accidentals has been adjusted

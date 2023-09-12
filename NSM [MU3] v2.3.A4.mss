@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU3] v2.2                -->
+<!-- NSM [MU3] v2.3                -->
 <!-- Page size: A4                 -->
 <!-- Copyright (C) 2023 XiaoMigros -->
 <!-- ToDo:
@@ -9,24 +9,15 @@
 - work out system behind dynamic size/barNoteDistance
 -->
 <!-- Changelog:
-- improved barline spacing and sizes
-- improved positioning of accidentals
-- better handling of small ties
-- improved text size of dynamics, esp. with haipins
-- improved size of codas and segnos
-- improved text size and positioning of voltas
-- improved text size of measure numbers
-- improved size of beamlets
-- ottava parentheses now hug the ottava rather than finishing half-way
-- ottavas line dashes are now more accurate
-- other minor adjustments
+- readjusted pedal sizes
+- rehearsal marks follow finale format
 -->
 
 <museScore version="3.02">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.5</pagePrintableWidth>
+    <pageWidth>8.26771</pageWidth>
+    <pageHeight>11.69291</pageHeight>
+    <pagePrintableWidth>7.26771</pagePrintableWidth>
     <pageEvenLeftMargin>0.5</pageEvenLeftMargin> <!-- MU3 accounts for brace in margins-->
     <pageOddLeftMargin>0.5</pageOddLeftMargin>
     <pageEvenTopMargin>0.5</pageEvenTopMargin>
@@ -143,7 +134,7 @@
     <shortStemProgression>0.25</shortStemProgression>
     <shortestStem>3</shortestStem>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
-    <minNoteDistance>0.2</minNoteDistance>
+    <minNoteDistance>0.5</minNoteDistance>
     <barNoteDistance>1.25</barNoteDistance>
     <barAccidentalDistance>0.5</barAccidentalDistance>
     <multiMeasureRestMargin>1.2</multiMeasureRestMargin>
@@ -207,9 +198,9 @@
     <pedalLineWidth>0.075</pedalLineWidth>
     <pedalListStyle>1</pedalListStyle>
     <pedalBeginTextOffset x="0" y="0.15"/>
-    <pedalHookHeight>-1.2</pedalHookHeight>
+    <pedalHookHeight>-1.08</pedalHookHeight>
     <pedalFontFace>Times New Roman</pedalFontFace>
-    <pedalFontSize>9.25</pedalFontSize>
+    <pedalFontSize>10.8</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
     <pedalFontSpatiumDependent>1</pedalFontSpatiumDependent>
     <pedalFontStyle>0</pedalFontStyle>
@@ -865,8 +856,8 @@ Page $P/$n</evenFooterC>
     <rehearsalMarkAlign>center,baseline</rehearsalMarkAlign>
     <rehearsalMarkFrameType>1</rehearsalMarkFrameType>
     <rehearsalMarkFramePadding>0.5</rehearsalMarkFramePadding>
-    <rehearsalMarkFrameWidth>0.2</rehearsalMarkFrameWidth>
-    <rehearsalMarkFrameRound>20</rehearsalMarkFrameRound>
+    <rehearsalMarkFrameWidth>0.075</rehearsalMarkFrameWidth>
+    <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
     <rehearsalMarkFrameFgColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkFrameBgColor r="255" g="255" b="255" a="0"/>
     <rehearsalMarkPlacement>0</rehearsalMarkPlacement>
