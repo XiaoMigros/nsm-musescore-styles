@@ -12,9 +12,7 @@ MuseScore {
 	//true centers staccatos, false resets them to default position
 	
 	Component.onCompleted : {
-        if (mscoreMajorVersion >= 4) {
-            title = qsTr("Center stem-side staccatos over notehead")
-        }
+        if (mscoreMajorVersion >= 4) title = qsTr("Center stem-side staccatos over notehead")
     }//Component
 	
 	onRun: {
@@ -53,22 +51,21 @@ MuseScore {
 		//We now have a complete list of notes with staccatos on them
 		//Next we work our way through the score and find the notes again, and add articulation to them
 		var cursor = curScore.newCursor()
-		cursor.rewind(Cursor.SCORE_START)
 		
 		for (var j = 0; j < curScore.ntracks; j++) {
 			cursor.rewindToTick(0)
 			cursor.track = j
-			console.log("At track " + cursor.track)
 			
 			while (mode) {//only center staccatos if mode is true (we already reset their positions, L#46)
 				if (cursor.element && cursor.element.type == Element.CHORD) {
 					for (var i in changelist) {
+						//if we have a match
 						if (cursor.element.is(changelist[i])) {
 							cursor.add(arti.clone())
 							changelist.splice(i, 0)
-							console.log("Adjusted staccato #" + Number(i+1))
+							console.log("Adjusted staccato #" + Number(+i+1))
 							break
-						}//if we have a match
+						}
 					}
 				}
 				if (! cursor.next()) {
@@ -76,14 +73,9 @@ MuseScore {
 				}
 			}//while staff
 		}//for tracks
-		if (full) {
-			curScore.selection.clear()
-		}
+		if (full) curScore.selection.clear()
 		curScore.endCmd()
-		if (mscoreMajorVersion < 4) {
-			Qt.quit()
-		} else {
-			quit()
-		}
+		if (mscoreMajorVersion < 4) Qt.quit()
+		else quit()
 	}//onRun
 }//MuseScore

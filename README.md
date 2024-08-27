@@ -6,6 +6,16 @@ A collection of MuseScore 3 & 4 template and style files aimed at looking like t
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
+### v2.4(08/28/24)
+- Adjusted position of repeat dots (previously too wide, MU4 only)
+- Tuplet numbers are now bold
+- MU4 only: Incorporation of MuseScore 4.2-4.4 style settings:
+- Hairpin and pedal font size has been adjusted for text, now that symbols load correctly and independently of font size
+- Readded the pno. instrument name label, it remains hidden through new style settings
+- New resizing of ties (independently of slurs)
+- Native support for page number font size, replacing the previously hacky method
+- Automatic adding of double barlines in front of key signature changes
+
 ### v2.3 (09/12/23)
 - Incorporation of MuseScore 4.1 style settings: Staccatos now align over the notehead
 - Rehearsal marks now match the look of Finale

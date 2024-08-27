@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU3] v2.3                -->
+<!-- NSM [MU3] v2.4                -->
 <!-- Page size: A4                 -->
 <!-- Copyright (C) 2023 XiaoMigros -->
 <!-- ToDo:
 - further improve auto spacing settings
-- Mu4.1: fix bottom margin size (it will account for copyright)
-- work out system behind dynamic size/barNoteDistance
+- vertical spacing around header and footer
+- make sure note distances are correct
+- check bpm note size
 -->
 <!-- Changelog:
-- readjusted pedal sizes
-- rehearsal marks follow finale format
+- tuplet font style is now bold
 -->
 
 <museScore version="3.02">
@@ -481,7 +481,7 @@ Page $P/$n</evenFooterC>
     <tupletFontSize>7</tupletFontSize>
     <tupletLineSpacing>1</tupletLineSpacing>
     <tupletFontSpatiumDependent>1</tupletFontSpatiumDependent>
-    <tupletFontStyle>2</tupletFontStyle>
+    <tupletFontStyle>3</tupletFontStyle>
     <tupletColor r="0" g="0" b="0" a="255"/>
     <tupletAlign>center,center</tupletAlign>
     <tupletBracketHookHeight>0.5</tupletBracketHookHeight>
