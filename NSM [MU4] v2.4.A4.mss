@@ -200,7 +200,7 @@
     <hairpinPosBelow x="0" y="2"/>
     <hairpinLinePosAbove x="0" y="-3"/>
     <hairpinLinePosBelow x="0" y="4"/>
-    <hairpinHeight>1.15</hairpinHeight>
+    <hairpinHeight>1.5</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
     <hairpinLineWidth>0.075</hairpinLineWidth>
     <hairpinFontFace>Times New Roman</hairpinFontFace>
