@@ -6,6 +6,8 @@ A collection of MuseScore 3 & 4 template and style files aimed at looking like t
 ![Example of the template in use](/examples/templates-v2.0.png)
 
 ## Changelog
+### v2.5 (04/07/25)
+- Incorporation of MuseScore 4.5 style settings
 ### v2.4(08/28/24)
 - Adjusted position of repeat dots (previously too wide, MU4 only)
 - Tuplet numbers are now bold
