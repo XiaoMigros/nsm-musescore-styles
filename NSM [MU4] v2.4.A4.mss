@@ -133,10 +133,10 @@
     <clefTimesigDistance>1</clefTimesigDistance>
     <keyTimesigDistance>1.5</keyTimesigDistance>
     <keyBarlineDistance>0.5</keyBarlineDistance>
-    <systemHeaderDistance>1.25</systemHeaderDistance>
-    <systemHeaderTimeSigDistance>0.5</systemHeaderTimeSigDistance>
+    <systemHeaderDistance>1.833</systemHeaderDistance> <!-- is actually 1.5 for clefs, we use 1.833 for consistency -->
+    <systemHeaderTimeSigDistance>1.833</systemHeaderTimeSigDistance>
     <systemTrailerRightMargin>0.5</systemTrailerRightMargin>
-    <clefBarlineDistance>0.5</clefBarlineDistance>
+    <clefBarlineDistance>0.3333</clefBarlineDistance>
     <timesigBarlineDistance>0.5</timesigBarlineDistance>
     <useStraightNoteFlags>0</useStraightNoteFlags>
     <stemWidth>0.075</stemWidth>
@@ -146,12 +146,12 @@
     <shortStemStartLocation>1</shortStemStartLocation>
     <shortestStem>3</shortestStem>
     <combineVoice>1</combineVoice>
-    <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
-    <minNoteDistance>0.2</minNoteDistance>
-    <barNoteDistance>1.25</barNoteDistance>
-    <barAccidentalDistance>0.5</barAccidentalDistance>
-    <noteBarDistance>1.5</noteBarDistance>
-    <measureSpacing>1.5</measureSpacing>
+    <beginRepeatLeftMargin>1.333</beginRepeatLeftMargin> <!-- arbitrary -->
+    <minNoteDistance>0.2</minNoteDistance> <!-- arbitrary -->
+    <barNoteDistance>1.333</barNoteDistance>
+    <barAccidentalDistance>0.5</barAccidentalDistance> <!-- arbitrary -->
+    <noteBarDistance>1.5</noteBarDistance> <!-- arbitrary -->
+    <measureSpacing>1.5</measureSpacing> <!-- arbitrary -->
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
     <mrNumberSeries>0</mrNumberSeries>
     <mrNumberEveryXMeasures>4</mrNumberEveryXMeasures>
@@ -294,7 +294,7 @@
     <chordSymbolAFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolAFrameBgColor r="255" g="255" b="255" a="0"/>
     <chordSymbolBFontFace>Times New Roman</chordSymbolBFontFace>
-    <chordSymbolBFontSize>11</chordSymbolBFontSize>
+    <chordSymbolBFontSize>10.8</chordSymbolBFontSize>
     <chordSymbolBLineSpacing>1</chordSymbolBLineSpacing>
     <chordSymbolBFontSpatiumDependent>1</chordSymbolBFontSpatiumDependent>
     <chordSymbolBFontStyle>2</chordSymbolBFontStyle>
