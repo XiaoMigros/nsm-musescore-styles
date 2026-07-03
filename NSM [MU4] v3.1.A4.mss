@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- NSM [MU4] v3.0                -->
+<!-- NSM [MU4] v3.1                -->
 <!-- Page size: A4                 -->
-<!-- Copyright (C) 2025 XiaoMigros -->
+<!-- Copyright (C) 2026 XiaoMigros -->
 <!-- ToDo:
 - further improve auto spacing settings
 - vertical spacing around header and footer
 - make sure note distances are correct
 -->
 <!-- Changelog:
-- Use Finale knowhow to redo everything
+- Incorporate changes from 4.7
 -->
 
-<museScore version="4.60">
+<museScore version="4.70">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.40972</pagePrintableWidth>
+    <pageWidth>8.26771</pageWidth>
+    <pageHeight>11.6929</pageHeight>
+    <pagePrintableWidth>7.17743</pagePrintableWidth>
     <pageEvenLeftMargin>0.59028</pageEvenLeftMargin>
     <pageOddLeftMargin>0.59028</pageOddLeftMargin>
     <pageEvenTopMargin>0.5</pageEvenTopMargin>
@@ -28,7 +28,7 @@
     <staffLowerBorder>7</staffLowerBorder>
     <staffHeaderFooterPadding>5</staffHeaderFooterPadding> <!-- too much? -->
     <staffDistance>8</staffDistance>
-    <instrumentNameOffset>0.7</instrumentNameOffset> <!-- Finale: 3, account for bracket width/dist of 2.3 -->
+    <instrumentNameOffset>0.8</instrumentNameOffset> <!-- Finale: 3, account for bracket width/dist of 2.2 -->
     <akkoladeDistance>8</akkoladeDistance>
     <minSystemDistance>9</minSystemDistance>
     <maxSystemDistance>20</maxSystemDistance>
@@ -41,7 +41,7 @@
     <maxSystemSpread>20</maxSystemSpread>
     <minStaffSpread>3.9</minStaffSpread>
     <maxStaffSpread>9</maxStaffSpread>
-    <maxAkkoladeDistance>7.788</maxAkkoladeDistance>
+    <maxAkkoladeDistance>8</maxAkkoladeDistance>
     <maxPageFillSpread>6</maxPageFillSpread>
     <lyricsPlacement>1</lyricsPlacement>
     <lyricsPosAbove x="0" y="-2"/>
@@ -78,8 +78,8 @@
     <lyricsOddColor r="0" g="0" b="0" a="255"/>
     <lyricsOddAlign>center,baseline</lyricsOddAlign>
     <lyricsOddFrameType>0</lyricsOddFrameType>
-    <lyricsOddFramePadding>0.2</lyricsOddFramePadding>
-    <lyricsOddFrameWidth>0.1</lyricsOddFrameWidth>
+    <lyricsOddFramePadding>0.5</lyricsOddFramePadding>
+    <lyricsOddFrameWidth>0.075</lyricsOddFrameWidth>
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -92,8 +92,8 @@
     <lyricsEvenColor r="0" g="0" b="0" a="255"/>
     <lyricsEvenAlign>center,baseline</lyricsEvenAlign>
     <lyricsEvenFrameType>0</lyricsEvenFrameType>
-    <lyricsEvenFramePadding>0.2</lyricsEvenFramePadding>
-    <lyricsEvenFrameWidth>0.1</lyricsEvenFrameWidth>
+    <lyricsEvenFramePadding>0.5</lyricsEvenFramePadding>
+    <lyricsEvenFrameWidth>0.075</lyricsEvenFrameWidth>
     <lyricsEvenFrameRound>0</lyricsEvenFrameRound>
     <lyricsEvenFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsEvenFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -174,7 +174,6 @@
     <stemWidth>0.075</stemWidth>
     <shortenStem>1</shortenStem>
     <stemLength>3.5</stemLength>
-    <stemLengthSmall>2.25</stemLengthSmall>
     <shortStemStartLocation>1</shortStemStartLocation>
     <shortestStem>2.833</shortestStem>
     <combineVoice>1</combineVoice>
@@ -245,8 +244,8 @@
     <hairpinColor r="0" g="0" b="0" a="255"/>
     <hairpinTextAlign>left,baseline</hairpinTextAlign>
     <hairpinFrameType>0</hairpinFrameType>
-    <hairpinFramePadding>0.2</hairpinFramePadding>
-    <hairpinFrameWidth>0.1</hairpinFrameWidth>
+    <hairpinFramePadding>0.5</hairpinFramePadding>
+    <hairpinFrameWidth>0.075</hairpinFrameWidth>
     <hairpinFrameRound>0</hairpinFrameRound>
     <hairpinFrameFgColor r="0" g="0" b="0" a="255"/>
     <hairpinFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -280,8 +279,8 @@
     <pedalColor r="0" g="0" b="0" a="255"/>
     <pedalTextAlign>left,baseline</pedalTextAlign>
     <pedalFrameType>0</pedalFrameType>
-    <pedalFramePadding>0.2</pedalFramePadding>
-    <pedalFrameWidth>0.1</pedalFrameWidth>
+    <pedalFramePadding>0.5</pedalFramePadding>
+    <pedalFrameWidth>0.075</pedalFrameWidth>
     <pedalFrameRound>0</pedalFrameRound>
     <pedalFrameFgColor r="0" g="0" b="0" a="255"/>
     <pedalFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -327,8 +326,8 @@
     <chordSymbolAColor r="0" g="0" b="0" a="255"/>
     <chordSymbolAAlign>left,baseline</chordSymbolAAlign>
     <chordSymbolAFrameType>0</chordSymbolAFrameType>
-    <chordSymbolAFramePadding>0.2</chordSymbolAFramePadding>
-    <chordSymbolAFrameWidth>0.1</chordSymbolAFrameWidth>
+    <chordSymbolAFramePadding>0.5</chordSymbolAFramePadding>
+    <chordSymbolAFrameWidth>0.075</chordSymbolAFrameWidth>
     <chordSymbolAFrameRound>0</chordSymbolAFrameRound>
     <chordSymbolAFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolAFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -340,8 +339,8 @@
     <chordSymbolBColor r="0" g="0" b="0" a="255"/>
     <chordSymbolBAlign>left,baseline</chordSymbolBAlign>
     <chordSymbolBFrameType>0</chordSymbolBFrameType>
-    <chordSymbolBFramePadding>0.2</chordSymbolBFramePadding>
-    <chordSymbolBFrameWidth>0.1</chordSymbolBFrameWidth>
+    <chordSymbolBFramePadding>0.5</chordSymbolBFramePadding>
+    <chordSymbolBFrameWidth>0.075</chordSymbolBFrameWidth>
     <chordSymbolBFrameRound>0</chordSymbolBFrameRound>
     <chordSymbolBFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolBFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -353,8 +352,8 @@
     <romanNumeralColor r="0" g="0" b="0" a="255"/>
     <romanNumeralAlign>left,baseline</romanNumeralAlign>
     <romanNumeralFrameType>0</romanNumeralFrameType>
-    <romanNumeralFramePadding>0.2</romanNumeralFramePadding>
-    <romanNumeralFrameWidth>0.1</romanNumeralFrameWidth>
+    <romanNumeralFramePadding>0.5</romanNumeralFramePadding>
+    <romanNumeralFrameWidth>0.075</romanNumeralFrameWidth>
     <romanNumeralFrameRound>0</romanNumeralFrameRound>
     <romanNumeralFrameFgColor r="0" g="0" b="0" a="255"/>
     <romanNumeralFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -366,8 +365,8 @@
     <nashvilleNumberColor r="0" g="0" b="0" a="255"/>
     <nashvilleNumberAlign>left,baseline</nashvilleNumberAlign>
     <nashvilleNumberFrameType>0</nashvilleNumberFrameType>
-    <nashvilleNumberFramePadding>0.2</nashvilleNumberFramePadding>
-    <nashvilleNumberFrameWidth>0.1</nashvilleNumberFrameWidth>
+    <nashvilleNumberFramePadding>0.5</nashvilleNumberFramePadding>
+    <nashvilleNumberFrameWidth>0.075</nashvilleNumberFrameWidth>
     <nashvilleNumberFrameRound>0</nashvilleNumberFrameRound>
     <nashvilleNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <nashvilleNumberFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -486,6 +485,9 @@
     <arpeggioLineWidth>0.18</arpeggioLineWidth>
     <arpeggioHookLen>0.8</arpeggioHookLen>
     <arpeggioHiddenInStdIfTab>0</arpeggioHiddenInStdIfTab>
+    <chordBracketNoteDistance>0.15</chordBracketNoteDistance>
+    <chordBracketLineWidth>0.11</chordBracketLineWidth> <!-- copied from symbol dimensions-->
+    <chordBracketHookLen>1.45</chordBracketHookLen>
     <slurEndWidth>0.0375</slurEndWidth> <!-- Note: MS values poorly translate due to different midwidth calculations-->
     <slurMidWidth>0.1875</slurMidWidth>
     <slurDottedWidth>0.075</slurDottedWidth>
@@ -546,8 +548,8 @@
     <voltaAlign>left,baseline</voltaAlign> <!-- or left, top -->
     <voltaOffset x="1.5" y="1.5"/> <!-- or 1.5, 1 -->
     <voltaFrameType>0</voltaFrameType>
-    <voltaFramePadding>0.2</voltaFramePadding>
-    <voltaFrameWidth>0.1</voltaFrameWidth>
+    <voltaFramePadding>0.5</voltaFramePadding>
+    <voltaFrameWidth>0.075</voltaFrameWidth>
     <voltaFrameRound>0</voltaFrameRound>
     <voltaFrameFgColor r="0" g="0" b="0" a="255"/>
     <voltaFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -603,8 +605,8 @@
     <ottavaTextAlignAbove>left,center</ottavaTextAlignAbove>
     <ottavaTextAlignBelow>left,center</ottavaTextAlignBelow>
     <ottavaFrameType>0</ottavaFrameType>
-    <ottavaFramePadding>0.2</ottavaFramePadding>
-    <ottavaFrameWidth>0.1</ottavaFrameWidth>
+    <ottavaFramePadding>0.5</ottavaFramePadding>
+    <ottavaFrameWidth>0.075</ottavaFrameWidth>
     <ottavaFrameRound>0</ottavaFrameRound>
     <ottavaFrameFgColor r="0" g="0" b="0" a="255"/>
     <ottavaFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -646,8 +648,8 @@
     <tupletBracketHookHeight>0.5</tupletBracketHookHeight>
     <tupletOffset x="0" y="0"/>
     <tupletFrameType>0</tupletFrameType>
-    <tupletFramePadding>0.2</tupletFramePadding>
-    <tupletFrameWidth>0.1</tupletFrameWidth>
+    <tupletFramePadding>0.5</tupletFramePadding>
+    <tupletFrameWidth>0.075</tupletFrameWidth>
     <tupletFrameRound>0</tupletFrameRound>
     <tupletFrameFgColor r="0" g="0" b="0" a="255"/>
     <tupletFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -682,8 +684,8 @@
     <textLineDashGapLen>8.17</textLineDashGapLen>
     <textLineHookHeight>0.5</textLineHookHeight>
     <textLineFrameType>0</textLineFrameType>
-    <textLineFramePadding>0.2</textLineFramePadding>
-    <textLineFrameWidth>0.1</textLineFrameWidth>
+    <textLineFramePadding>0.5</textLineFramePadding>
+    <textLineFrameWidth>0.075</textLineFrameWidth>
     <textLineFrameRound>0</textLineFrameRound>
     <textLineFrameFgColor r="0" g="0" b="0" a="255"/>
     <textLineFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -697,8 +699,8 @@
     <systemTextLineDashGapLen>8.17</systemTextLineDashGapLen>
     <systemTextLineHookHeight>0.5</systemTextLineHookHeight>
     <systemTextLineFrameType>0</systemTextLineFrameType>
-    <systemTextLineFramePadding>0.2</systemTextLineFramePadding>
-    <systemTextLineFrameWidth>0.1</systemTextLineFrameWidth>
+    <systemTextLineFramePadding>0.5</systemTextLineFramePadding>
+    <systemTextLineFrameWidth>0.075</systemTextLineFrameWidth>
     <systemTextLineFrameRound>0</systemTextLineFrameRound>
     <systemTextLineFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemTextLineFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -714,8 +716,8 @@
     <defaultColor r="0" g="0" b="0" a="255"/>
     <defaultAlign>left,top</defaultAlign>
     <defaultFrameType>0</defaultFrameType>
-    <defaultFramePadding>0.2</defaultFramePadding>
-    <defaultFrameWidth>0.1</defaultFrameWidth>
+    <defaultFramePadding>0.5</defaultFramePadding>
+    <defaultFrameWidth>0.075</defaultFrameWidth>
     <defaultFrameRound>0</defaultFrameRound>
     <defaultFrameFgColor r="0" g="0" b="0" a="255"/>
     <defaultFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -734,8 +736,8 @@
     <titleOffset x="0" y="1.56"/>
     <titleOffsetType>0</titleOffsetType>
     <titleFrameType>0</titleFrameType>
-    <titleFramePadding>0.2</titleFramePadding>
-    <titleFrameWidth>0.1</titleFrameWidth>
+    <titleFramePadding>0.5</titleFramePadding>
+    <titleFrameWidth>0.075</titleFrameWidth>
     <titleFrameRound>0</titleFrameRound>
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -750,8 +752,8 @@
     <subTitleOffset x="0" y="11"/>
     <subTitleOffsetType>0</subTitleOffsetType>
     <subTitleFrameType>0</subTitleFrameType>
-    <subTitleFramePadding>0.2</subTitleFramePadding>
-    <subTitleFrameWidth>0.1</subTitleFrameWidth>
+    <subTitleFramePadding>0.5</subTitleFramePadding>
+    <subTitleFrameWidth>0.075</subTitleFrameWidth>
     <subTitleFrameRound>0</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -766,8 +768,8 @@
     <composerOffset x="0" y="18"/>
     <composerOffsetType>0</composerOffsetType>
     <composerFrameType>0</composerFrameType>
-    <composerFramePadding>0.2</composerFramePadding>
-    <composerFrameWidth>0.1</composerFrameWidth>
+    <composerFramePadding>0.5</composerFramePadding>
+    <composerFrameWidth>0.075</composerFrameWidth>
     <composerFrameRound>0</composerFrameRound>
     <composerFrameFgColor r="0" g="0" b="0" a="255"/>
     <composerFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -782,8 +784,8 @@
     <lyricistOffset x="0" y="23"/>
     <lyricistOffsetType>0</lyricistOffsetType>
     <lyricistFrameType>0</lyricistFrameType>
-    <lyricistFramePadding>0.2</lyricistFramePadding>
-    <lyricistFrameWidth>0.1</lyricistFrameWidth>
+    <lyricistFramePadding>0.5</lyricistFramePadding>
+    <lyricistFrameWidth>0.075</lyricistFrameWidth>
     <lyricistFrameRound>0</lyricistFrameRound>
     <lyricistFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricistFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -796,8 +798,8 @@
     <fingeringColor r="0" g="0" b="0" a="255"/>
     <fingeringAlign>center,center</fingeringAlign>
     <fingeringFrameType>0</fingeringFrameType>
-    <fingeringFramePadding>0.2</fingeringFramePadding>
-    <fingeringFrameWidth>0.1</fingeringFrameWidth>
+    <fingeringFramePadding>0.5</fingeringFramePadding>
+    <fingeringFrameWidth>0.075</fingeringFrameWidth>
     <fingeringFrameRound>0</fingeringFrameRound>
     <fingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <fingeringFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -812,8 +814,8 @@
     <tabFretNumberAlign>left,baseline</tabFretNumberAlign>
     <tabFretNumberOffset x="0" y="0"/>
     <tabFretNumberFrameType>0</tabFretNumberFrameType>
-    <tabFretNumberFramePadding>0.2</tabFretNumberFramePadding>
-    <tabFretNumberFrameWidth>0.1</tabFretNumberFrameWidth>
+    <tabFretNumberFramePadding>0.5</tabFretNumberFramePadding>
+    <tabFretNumberFrameWidth>0.075</tabFretNumberFrameWidth>
     <tabFretNumberFrameRound>0</tabFretNumberFrameRound>
     <tabFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <tabFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -825,8 +827,8 @@
     <lhGuitarFingeringColor r="0" g="0" b="0" a="255"/>
     <lhGuitarFingeringAlign>right,center</lhGuitarFingeringAlign>
     <lhGuitarFingeringFrameType>0</lhGuitarFingeringFrameType>
-    <lhGuitarFingeringFramePadding>0.2</lhGuitarFingeringFramePadding>
-    <lhGuitarFingeringFrameWidth>0.1</lhGuitarFingeringFrameWidth>
+    <lhGuitarFingeringFramePadding>0.5</lhGuitarFingeringFramePadding>
+    <lhGuitarFingeringFrameWidth>0.075</lhGuitarFingeringFrameWidth>
     <lhGuitarFingeringFrameRound>0</lhGuitarFingeringFrameRound>
     <lhGuitarFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <lhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -840,15 +842,14 @@
     <rhGuitarFingeringColor r="0" g="0" b="0" a="255"/>
     <rhGuitarFingeringAlign>center,center</rhGuitarFingeringAlign>
     <rhGuitarFingeringFrameType>0</rhGuitarFingeringFrameType>
-    <rhGuitarFingeringFramePadding>0.2</rhGuitarFingeringFramePadding>
-    <rhGuitarFingeringFrameWidth>0.1</rhGuitarFingeringFrameWidth>
+    <rhGuitarFingeringFramePadding>0.5</rhGuitarFingeringFramePadding>
+    <rhGuitarFingeringFrameWidth>0.075</rhGuitarFingeringFrameWidth>
     <rhGuitarFingeringFrameRound>0</rhGuitarFingeringFrameRound>
     <rhGuitarFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <rhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <rhGuitarFingeringOffset x="0" y="0"/>
     <rhGuitarFingeringPosition>center</rhGuitarFingeringPosition>
-    <hammerOnPullOffTappingFontFace>Times New Roman
-</hammerOnPullOffTappingFontFace>
+    <hammerOnPullOffTappingFontFace>Times New Roman</hammerOnPullOffTappingFontFace>
     <hammerOnPullOffTappingFontSize>8</hammerOnPullOffTappingFontSize>
     <hammerOnPullOffTappingLineSpacing>1</hammerOnPullOffTappingLineSpacing>
     <hammerOnPullOffTappingFontSpatiumDependent>1</hammerOnPullOffTappingFontSpatiumDependent>
@@ -856,8 +857,8 @@
     <hammerOnPullOffTappingColor r="0" g="0" b="0" a="255"/>
     <hammerOnPullOffTappingAlign>left,baseline</hammerOnPullOffTappingAlign>
     <hammerOnPullOffTappingFrameType>0</hammerOnPullOffTappingFrameType>
-    <hammerOnPullOffTappingFramePadding>0.2</hammerOnPullOffTappingFramePadding>
-    <hammerOnPullOffTappingFrameWidth>0.1</hammerOnPullOffTappingFrameWidth>
+    <hammerOnPullOffTappingFramePadding>0.5</hammerOnPullOffTappingFramePadding>
+    <hammerOnPullOffTappingFrameWidth>0.075</hammerOnPullOffTappingFrameWidth>
     <hammerOnPullOffTappingFrameRound>0</hammerOnPullOffTappingFrameRound>
     <hammerOnPullOffTappingFrameFgColor r="0" g="0" b="0" a="255"/>
     <hammerOnPullOffTappingFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -884,8 +885,8 @@
     <stringNumberColor r="0" g="0" b="0" a="255"/>
     <stringNumberAlign>center,center</stringNumberAlign>
     <stringNumberFrameType>2</stringNumberFrameType>
-    <stringNumberFramePadding>0.2</stringNumberFramePadding>
-    <stringNumberFrameWidth>0.1</stringNumberFrameWidth>
+    <stringNumberFramePadding>0.5</stringNumberFramePadding>
+    <stringNumberFrameWidth>0.075</stringNumberFrameWidth>
     <stringNumberFrameRound>0</stringNumberFrameRound>
     <stringNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -901,8 +902,8 @@
     <harpPedalDiagramColor r="0" g="0" b="0" a="255"/>
     <harpPedalDiagramAlign>center,center</harpPedalDiagramAlign>
     <harpPedalDiagramFrameType>0</harpPedalDiagramFrameType>
-    <harpPedalDiagramFramePadding>0.2</harpPedalDiagramFramePadding>
-    <harpPedalDiagramFrameWidth>0.1</harpPedalDiagramFrameWidth>
+    <harpPedalDiagramFramePadding>0.5</harpPedalDiagramFramePadding>
+    <harpPedalDiagramFrameWidth>0.075</harpPedalDiagramFrameWidth>
     <harpPedalDiagramFrameRound>0</harpPedalDiagramFrameRound>
     <harpPedalDiagramFrameFgColor r="0" g="0" b="0" a="255"/>
     <harpPedalDiagramFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -920,8 +921,8 @@
     <harpPedalTextDiagramColor r="0" g="0" b="0" a="255"/>
     <harpPedalTextDiagramAlign>left,baseline</harpPedalTextDiagramAlign>
     <harpPedalTextDiagramFrameType>0</harpPedalTextDiagramFrameType>
-    <harpPedalTextDiagramFramePadding>0.2</harpPedalTextDiagramFramePadding>
-    <harpPedalTextDiagramFrameWidth>0.1</harpPedalTextDiagramFrameWidth>
+    <harpPedalTextDiagramFramePadding>0.5</harpPedalTextDiagramFramePadding>
+    <harpPedalTextDiagramFrameWidth>0.075</harpPedalTextDiagramFrameWidth>
     <harpPedalTextDiagramFrameRound>0</harpPedalTextDiagramFrameRound>
     <harpPedalTextDiagramFrameFgColor r="0" g="0" b="0" a="255"/>
     <harpPedalTextDiagramFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -939,8 +940,8 @@
     <articulationColor r="0" g="0" b="0" a="255"/>
     <articulationAlign>left,baseline</articulationAlign>
     <articulationFrameType>0</articulationFrameType>
-    <articulationFramePadding>0.2</articulationFramePadding>
-    <articulationFrameWidth>0.1</articulationFrameWidth>
+    <articulationFramePadding>0.5</articulationFramePadding>
+    <articulationFrameWidth>0.075</articulationFrameWidth>
     <articulationFrameRound>0</articulationFrameRound>
     <articulationFrameFgColor r="0" g="0" b="0" a="255"/>
     <articulationFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -955,8 +956,8 @@
     <longInstrumentAlign>right,center</longInstrumentAlign>
     <longInstrumentOffset x="0" y="0"/>
     <longInstrumentFrameType>0</longInstrumentFrameType>
-    <longInstrumentFramePadding>0.2</longInstrumentFramePadding>
-    <longInstrumentFrameWidth>0.1</longInstrumentFrameWidth>
+    <longInstrumentFramePadding>0.5</longInstrumentFramePadding>
+    <longInstrumentFrameWidth>0.075</longInstrumentFrameWidth>
     <longInstrumentFrameRound>0</longInstrumentFrameRound>
     <longInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <longInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -970,8 +971,8 @@
     <shortInstrumentAlign>right,center</shortInstrumentAlign>
     <shortInstrumentOffset x="0" y="0"/>
     <shortInstrumentFrameType>0</shortInstrumentFrameType>
-    <shortInstrumentFramePadding>0.2</shortInstrumentFramePadding>
-    <shortInstrumentFrameWidth>0.1</shortInstrumentFrameWidth>
+    <shortInstrumentFramePadding>0.5</shortInstrumentFramePadding>
+    <shortInstrumentFrameWidth>0.075</shortInstrumentFrameWidth>
     <shortInstrumentFrameRound>0</shortInstrumentFrameRound>
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -985,8 +986,8 @@
     <partInstrumentAlign>left,top</partInstrumentAlign>
     <partInstrumentOffset x="0" y="0"/>
     <partInstrumentFrameType>0</partInstrumentFrameType>
-    <partInstrumentFramePadding>0.2</partInstrumentFramePadding>
-    <partInstrumentFrameWidth>0.1</partInstrumentFrameWidth>
+    <partInstrumentFramePadding>0.5</partInstrumentFramePadding>
+    <partInstrumentFrameWidth>0.075</partInstrumentFrameWidth>
     <partInstrumentFrameRound>0</partInstrumentFrameRound>
     <partInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <partInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -999,8 +1000,8 @@
     <dynamicsColor r="0" g="0" b="0" a="255"/>
     <dynamicsAlign>center,baseline</dynamicsAlign>
     <dynamicsFrameType>0</dynamicsFrameType>
-    <dynamicsFramePadding>0.2</dynamicsFramePadding>
-    <dynamicsFrameWidth>0.1</dynamicsFrameWidth>
+    <dynamicsFramePadding>0.5</dynamicsFramePadding>
+    <dynamicsFrameWidth>0.075</dynamicsFrameWidth>
     <dynamicsFrameRound>0</dynamicsFrameRound>
     <dynamicsFrameFgColor r="0" g="0" b="0" a="255"/>
     <dynamicsFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1017,8 +1018,8 @@
     <expressionPosAbove x="0" y="-1.5"/>
     <expressionPosBelow x="0" y="2.5"/>
     <expressionFrameType>0</expressionFrameType>
-    <expressionFramePadding>0.2</expressionFramePadding>
-    <expressionFrameWidth>0.1</expressionFrameWidth>
+    <expressionFramePadding>0.5</expressionFramePadding>
+    <expressionFrameWidth>0.075</expressionFrameWidth>
     <expressionFrameRound>0</expressionFrameRound>
     <expressionFrameFgColor r="0" g="0" b="0" a="255"/>
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1037,8 +1038,8 @@
     <tempoPosBelow x="0" y="3"/>
     <tempoMinDistance>1</tempoMinDistance>
     <tempoFrameType>0</tempoFrameType>
-    <tempoFramePadding>0.2</tempoFramePadding>
-    <tempoFrameWidth>0.1</tempoFrameWidth>
+    <tempoFramePadding>0.5</tempoFramePadding>
+    <tempoFrameWidth>0.075</tempoFrameWidth>
     <tempoFrameRound>0</tempoFrameRound>
     <tempoFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1056,8 +1057,8 @@
     <tempoChangePosBelow x="0" y="3"/>
     <tempoChangeMinDistance>0.5</tempoChangeMinDistance>
     <tempoChangeFrameType>0</tempoChangeFrameType>
-    <tempoChangeFramePadding>0.2</tempoChangeFramePadding>
-    <tempoChangeFrameWidth>0.1</tempoChangeFrameWidth>
+    <tempoChangeFramePadding>0.5</tempoChangeFramePadding>
+    <tempoChangeFrameWidth>0.075</tempoChangeFrameWidth>
     <tempoChangeFrameRound>0</tempoChangeFrameRound>
     <tempoChangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoChangeFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1076,8 +1077,8 @@
     <metronomeAlign>left,top</metronomeAlign>
     <metronomeOffset x="0" y="0"/>
     <metronomeFrameType>0</metronomeFrameType>
-    <metronomeFramePadding>0.2</metronomeFramePadding>
-    <metronomeFrameWidth>0.1</metronomeFrameWidth>
+    <metronomeFramePadding>0.5</metronomeFramePadding>
+    <metronomeFrameWidth>0.075</metronomeFrameWidth>
     <metronomeFrameRound>0</metronomeFrameRound>
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1096,8 +1097,8 @@
     <measureNumberMinDistance>0.5</measureNumberMinDistance>
     <measureNumberAlign>left,baseline</measureNumberAlign>
     <measureNumberFrameType>0</measureNumberFrameType>
-    <measureNumberFramePadding>0.2</measureNumberFramePadding>
-    <measureNumberFrameWidth>0.1</measureNumberFrameWidth>
+    <measureNumberFramePadding>0.5</measureNumberFramePadding>
+    <measureNumberFrameWidth>0.075</measureNumberFrameWidth>
     <measureNumberFrameRound>0</measureNumberFrameRound>
     <measureNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <measureNumberFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1114,8 +1115,8 @@
     <measureNumberAlternatePosAbove x="0.25" y="-1.833"/>
     <measureNumberAlternatePosBelow x="0" y="4"/>
     <measureNumberAlternateFrameType>1</measureNumberAlternateFrameType>
-    <measureNumberAlternateFramePadding>0.3</measureNumberAlternateFramePadding>
-    <measureNumberAlternateFrameWidth>0.1</measureNumberAlternateFrameWidth>
+    <measureNumberAlternateFramePadding>0.5</measureNumberAlternateFramePadding>
+    <measureNumberAlternateFrameWidth>0.075</measureNumberAlternateFrameWidth>
     <measureNumberAlternateFrameRound>0</measureNumberAlternateFrameRound>
     <measureNumberAlternateFrameFgColor r="0" g="0" b="0" a="255"/>
     <measureNumberAlternateFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1134,8 +1135,8 @@
     <mmRestRangeHPlacement>center</mmRestRangeHPlacement>
     <mmRestRangeAlign>center,baseline</mmRestRangeAlign>
     <mmRestRangeFrameType>0</mmRestRangeFrameType>
-    <mmRestRangeFramePadding>0.2</mmRestRangeFramePadding>
-    <mmRestRangeFrameWidth>0.1</mmRestRangeFrameWidth>
+    <mmRestRangeFramePadding>0.5</mmRestRangeFramePadding>
+    <mmRestRangeFrameWidth>0.075</mmRestRangeFrameWidth>
     <mmRestRangeFrameRound>0</mmRestRangeFrameRound>
     <mmRestRangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <mmRestRangeFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1151,8 +1152,8 @@
     <translatorAlign>left,top</translatorAlign>
     <translatorOffset x="0" y="0"/>
     <translatorFrameType>0</translatorFrameType>
-    <translatorFramePadding>0.2</translatorFramePadding>
-    <translatorFrameWidth>0.1</translatorFrameWidth>
+    <translatorFramePadding>0.5</translatorFramePadding>
+    <translatorFrameWidth>0.075</translatorFrameWidth>
     <translatorFrameRound>0</translatorFrameRound>
     <translatorFrameFgColor r="0" g="0" b="0" a="255"/>
     <translatorFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1170,8 +1171,8 @@
     <systemTextPosBelow x="0" y="3.5"/>
     <systemTextMinDistance>0.5</systemTextMinDistance>
     <systemTextFrameType>0</systemTextFrameType>
-    <systemTextFramePadding>0.2</systemTextFramePadding>
-    <systemTextFrameWidth>0.1</systemTextFrameWidth>
+    <systemTextFramePadding>0.5</systemTextFramePadding>
+    <systemTextFrameWidth>0.075</systemTextFrameWidth>
     <systemTextFrameRound>0</systemTextFrameRound>
     <systemTextFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemTextFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1189,8 +1190,8 @@
     <staffTextPosBelow x="0" y="2.5"/>
     <staffTextMinDistance>0.5</staffTextMinDistance>
     <staffTextFrameType>0</staffTextFrameType>
-    <staffTextFramePadding>0.2</staffTextFramePadding>
-    <staffTextFrameWidth>0.1</staffTextFrameWidth>
+    <staffTextFramePadding>0.5</staffTextFramePadding>
+    <staffTextFrameWidth>0.075</staffTextFrameWidth>
     <staffTextFrameRound>0</staffTextFrameRound>
     <staffTextFrameFgColor r="0" g="0" b="0" a="255"/>
     <staffTextFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1204,8 +1205,8 @@
     <fretDiagramFingeringAlign>left,baseline</fretDiagramFingeringAlign>
     <fretDiagramFingeringPosAbove x="0" y="-1"/>
     <fretDiagramFingeringFrameType>0</fretDiagramFingeringFrameType>
-    <fretDiagramFingeringFramePadding>0.2</fretDiagramFingeringFramePadding>
-    <fretDiagramFingeringFrameWidth>0.1</fretDiagramFingeringFrameWidth>
+    <fretDiagramFingeringFramePadding>0.5</fretDiagramFingeringFramePadding>
+    <fretDiagramFingeringFrameWidth>0.075</fretDiagramFingeringFrameWidth>
     <fretDiagramFingeringFrameRound>0</fretDiagramFingeringFrameRound>
     <fretDiagramFingeringFrameFgColor r="0" g="0" b="0" a="255"/>
     <fretDiagramFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1219,8 +1220,8 @@
     <fretDiagramFretNumberAlign>left,baseline</fretDiagramFretNumberAlign>
     <fretDiagramFretNumberPosAbove x="0" y="-1"/>
     <fretDiagramFretNumberFrameType>0</fretDiagramFretNumberFrameType>
-    <fretDiagramFretNumberFramePadding>0.2</fretDiagramFretNumberFramePadding>
-    <fretDiagramFretNumberFrameWidth>0.1</fretDiagramFretNumberFrameWidth>
+    <fretDiagramFretNumberFramePadding>0.5</fretDiagramFretNumberFramePadding>
+    <fretDiagramFretNumberFrameWidth>0.075</fretDiagramFretNumberFrameWidth>
     <fretDiagramFretNumberFrameRound>0</fretDiagramFretNumberFrameRound>
     <fretDiagramFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <fretDiagramFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1252,8 +1253,8 @@
     <repeatPlayCountAlign>left,baseline</repeatPlayCountAlign>
     <repeatPlayCountPlacement>0</repeatPlayCountPlacement>
     <repeatPlayCountFrameType>0</repeatPlayCountFrameType>
-    <repeatPlayCountFramePadding>0.2</repeatPlayCountFramePadding>
-    <repeatPlayCountFrameWidth>0.1</repeatPlayCountFrameWidth>
+    <repeatPlayCountFramePadding>0.5</repeatPlayCountFramePadding>
+    <repeatPlayCountFrameWidth>0.075</repeatPlayCountFrameWidth>
     <repeatPlayCountFrameRound>0</repeatPlayCountFrameRound>
     <repeatPlayCountFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatPlayCountFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1270,8 +1271,8 @@
     <repeatLeftAlign>left,baseline</repeatLeftAlign>
     <repeatLeftPlacement>0</repeatLeftPlacement>
     <repeatLeftFrameType>0</repeatLeftFrameType>
-    <repeatLeftFramePadding>0.2</repeatLeftFramePadding>
-    <repeatLeftFrameWidth>0.1</repeatLeftFrameWidth>
+    <repeatLeftFramePadding>0.5</repeatLeftFramePadding>
+    <repeatLeftFrameWidth>0.075</repeatLeftFrameWidth>
     <repeatLeftFrameRound>0</repeatLeftFrameRound>
     <repeatLeftFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1285,8 +1286,8 @@
     <repeatRightAlign>right,baseline</repeatRightAlign>
     <repeatRightPlacement>0</repeatRightPlacement>
     <repeatRightFrameType>0</repeatRightFrameType>
-    <repeatRightFramePadding>0.2</repeatRightFramePadding>
-    <repeatRightFrameWidth>0.1</repeatRightFrameWidth>
+    <repeatRightFramePadding>0.5</repeatRightFramePadding>
+    <repeatRightFrameWidth>0.075</repeatRightFrameWidth>
     <repeatRightFrameRound>0</repeatRightFrameRound>
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1300,8 +1301,8 @@
     <frameAlign>left,top</frameAlign>
     <frameOffset x="0" y="0"/>
     <frameFrameType>0</frameFrameType>
-    <frameFramePadding>0.2</frameFramePadding>
-    <frameFrameWidth>0.1</frameFrameWidth>
+    <frameFramePadding>0.5</frameFramePadding>
+    <frameFrameWidth>0.075</frameFrameWidth>
     <frameFrameRound>0</frameFrameRound>
     <frameFrameFgColor r="0" g="0" b="0" a="255"/>
     <frameFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1332,8 +1333,8 @@
     <noteLineAlign>left,center</noteLineAlign>
     <noteLineOffset x="0" y="0"/>
     <noteLineFrameType>0</noteLineFrameType>
-    <noteLineFramePadding>0.2</noteLineFramePadding>
-    <noteLineFrameWidth>0.1</noteLineFrameWidth>
+    <noteLineFramePadding>0.5</noteLineFramePadding>
+    <noteLineFrameWidth>0.075</noteLineFrameWidth>
     <noteLineFrameRound>0</noteLineFrameRound>
     <noteLineFrameFgColor r="0" g="0" b="0" a="255"/>
     <noteLineFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1351,8 +1352,8 @@
     <glissandoAlign>left,top</glissandoAlign>
     <glissandoOffset x="0" y="0"/>
     <glissandoFrameType>0</glissandoFrameType>
-    <glissandoFramePadding>0.2</glissandoFramePadding>
-    <glissandoFrameWidth>0.1</glissandoFrameWidth>
+    <glissandoFramePadding>0.5</glissandoFramePadding>
+    <glissandoFrameWidth>0.075</glissandoFrameWidth>
     <glissandoFrameRound>0</glissandoFrameRound>
     <glissandoFrameFgColor r="0" g="0" b="0" a="255"/>
     <glissandoFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1375,8 +1376,8 @@
     <bendAlign>left,baseline</bendAlign>
     <bendOffset x="0" y="0"/>
     <bendFrameType>0</bendFrameType>
-    <bendFramePadding>0.2</bendFramePadding>
-    <bendFrameWidth>0.1</bendFrameWidth>
+    <bendFramePadding>0.5</bendFramePadding>
+    <bendFrameWidth>0.075</bendFrameWidth>
     <bendFrameRound>0</bendFrameRound>
     <bendFrameFgColor r="0" g="0" b="0" a="255"/>
     <bendFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1392,6 +1393,11 @@
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
     <showFretOnFullBendRelease>1</showFretOnFullBendRelease>
+    <alignPreBendAndPreDiveToGraceNote>0</alignPreBendAndPreDiveToGraceNote>
+    <useFractionCharacters>1</useFractionCharacters>
+    <guitarDivesAboveStaff>0</guitarDivesAboveStaff>
+    <guitarDiveLineWidth>0.0918</guitarDiveLineWidth>
+    <guitarDiveLineWidthTab>0.0918</guitarDiveLineWidthTab>
     <headerFontFace>Times New Roman</headerFontFace>
     <headerFontSize>12</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
@@ -1401,8 +1407,8 @@
     <headerAlign>center,top</headerAlign>
     <headerOffset x="0" y="0"/>
     <headerFrameType>0</headerFrameType>
-    <headerFramePadding>0.2</headerFramePadding>
-    <headerFrameWidth>0.1</headerFrameWidth>
+    <headerFramePadding>0.5</headerFramePadding>
+    <headerFrameWidth>0.075</headerFrameWidth>
     <headerFrameRound>0</headerFrameRound>
     <headerFrameFgColor r="0" g="0" b="0" a="255"/>
     <headerFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1416,8 +1422,8 @@
     <footerAlign>center,bottom</footerAlign>
     <footerOffset x="0" y="0"/>
     <footerFrameType>0</footerFrameType>
-    <footerFramePadding>0.2</footerFramePadding>
-    <footerFrameWidth>0.1</footerFrameWidth>
+    <footerFramePadding>0.5</footerFramePadding>
+    <footerFrameWidth>0.075</footerFrameWidth>
     <footerFrameRound>0</footerFrameRound>
     <footerFrameFgColor r="0" g="0" b="0" a="255"/>
     <footerFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1431,8 +1437,8 @@
     <copyrightAlign>center,bottom</copyrightAlign>
     <copyrightOffset x="0" y="0"/>
     <copyrightFrameType>0</copyrightFrameType>
-    <copyrightFramePadding>0.2</copyrightFramePadding>
-    <copyrightFrameWidth>0.1</copyrightFrameWidth>
+    <copyrightFramePadding>0.5</copyrightFramePadding>
+    <copyrightFrameWidth>0.075</copyrightFrameWidth>
     <copyrightFrameRound>0</copyrightFrameRound>
     <copyrightFrameFgColor r="0" g="0" b="0" a="255"/>
     <copyrightFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1446,8 +1452,8 @@
     <pageNumberAlign>center,top</pageNumberAlign>
     <pageNumberOffset x="0" y="0"/>
     <pageNumberFrameType>0</pageNumberFrameType>
-    <pageNumberFramePadding>0.2</pageNumberFramePadding>
-    <pageNumberFrameWidth>0.1</pageNumberFrameWidth>
+    <pageNumberFramePadding>0.5</pageNumberFramePadding>
+    <pageNumberFrameWidth>0.075</pageNumberFrameWidth>
     <pageNumberFrameRound>0</pageNumberFrameRound>
     <pageNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <pageNumberFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1465,8 +1471,8 @@
     <instrumentChangePosBelow x="0" y="3.5"/>
     <instrumentChangeMinDistance>0.5</instrumentChangeMinDistance>
     <instrumentChangeFrameType>0</instrumentChangeFrameType>
-    <instrumentChangeFramePadding>0.2</instrumentChangeFramePadding>
-    <instrumentChangeFrameWidth>0.1</instrumentChangeFrameWidth>
+    <instrumentChangeFramePadding>0.5</instrumentChangeFramePadding>
+    <instrumentChangeFrameWidth>0.075</instrumentChangeFrameWidth>
     <instrumentChangeFrameRound>0</instrumentChangeFrameRound>
     <instrumentChangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <instrumentChangeFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1484,8 +1490,8 @@
     <stickingPosBelow x="0" y="2"/>
     <stickingMinDistance>0.5</stickingMinDistance>
     <stickingFrameType>0</stickingFrameType>
-    <stickingFramePadding>0.2</stickingFramePadding>
-    <stickingFrameWidth>0.1</stickingFrameWidth>
+    <stickingFramePadding>0.5</stickingFramePadding>
+    <stickingFrameWidth>0.075</stickingFrameWidth>
     <stickingFrameRound>0</stickingFrameRound>
     <stickingFrameFgColor r="0" g="0" b="0" a="255"/>
     <stickingFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1507,8 +1513,8 @@
     <user1Offset x="0" y="0"/>
     <user1OffsetType>1</user1OffsetType>
     <user1FrameType>0</user1FrameType>
-    <user1FramePadding>0.2</user1FramePadding>
-    <user1FrameWidth>0.1</user1FrameWidth>
+    <user1FramePadding>0.5</user1FramePadding>
+    <user1FrameWidth>0.075</user1FrameWidth>
     <user1FrameRound>0</user1FrameRound>
     <user1FrameFgColor r="0" g="0" b="0" a="255"/>
     <user1FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1524,8 +1530,8 @@
     <user2Offset x="0" y="0"/>
     <user2OffsetType>1</user2OffsetType>
     <user2FrameType>0</user2FrameType>
-    <user2FramePadding>0.2</user2FramePadding>
-    <user2FrameWidth>0.1</user2FrameWidth>
+    <user2FramePadding>0.5</user2FramePadding>
+    <user2FrameWidth>0.075</user2FrameWidth>
     <user2FrameRound>0</user2FrameRound>
     <user2FrameFgColor r="0" g="0" b="0" a="255"/>
     <user2FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1541,8 +1547,8 @@
     <user3Offset x="0" y="0"/>
     <user3OffsetType>1</user3OffsetType>
     <user3FrameType>0</user3FrameType>
-    <user3FramePadding>0.2</user3FramePadding>
-    <user3FrameWidth>0.1</user3FrameWidth>
+    <user3FramePadding>0.5</user3FramePadding>
+    <user3FrameWidth>0.075</user3FrameWidth>
     <user3FrameRound>0</user3FrameRound>
     <user3FrameFgColor r="0" g="0" b="0" a="255"/>
     <user3FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1558,8 +1564,8 @@
     <user4Offset x="0" y="0"/>
     <user4OffsetType>1</user4OffsetType>
     <user4FrameType>0</user4FrameType>
-    <user4FramePadding>0.2</user4FramePadding>
-    <user4FrameWidth>0.1</user4FrameWidth>
+    <user4FramePadding>0.5</user4FramePadding>
+    <user4FrameWidth>0.075</user4FrameWidth>
     <user4FrameRound>0</user4FrameRound>
     <user4FrameFgColor r="0" g="0" b="0" a="255"/>
     <user4FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1575,8 +1581,8 @@
     <user5Offset x="0" y="0"/>
     <user5OffsetType>1</user5OffsetType>
     <user5FrameType>0</user5FrameType>
-    <user5FramePadding>0.2</user5FramePadding>
-    <user5FrameWidth>0.1</user5FrameWidth>
+    <user5FramePadding>0.5</user5FramePadding>
+    <user5FrameWidth>0.075</user5FrameWidth>
     <user5FrameRound>0</user5FrameRound>
     <user5FrameFgColor r="0" g="0" b="0" a="255"/>
     <user5FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1592,8 +1598,8 @@
     <user6Offset x="0" y="0"/>
     <user6OffsetType>1</user6OffsetType>
     <user6FrameType>0</user6FrameType>
-    <user6FramePadding>0.2</user6FramePadding>
-    <user6FrameWidth>0.1</user6FrameWidth>
+    <user6FramePadding>0.5</user6FramePadding>
+    <user6FrameWidth>0.075</user6FrameWidth>
     <user6FrameRound>0</user6FrameRound>
     <user6FrameFgColor r="0" g="0" b="0" a="255"/>
     <user6FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1609,8 +1615,8 @@
     <user7Offset x="0" y="0"/>
     <user7OffsetType>1</user7OffsetType>
     <user7FrameType>0</user7FrameType>
-    <user7FramePadding>0.2</user7FramePadding>
-    <user7FrameWidth>0.1</user7FrameWidth>
+    <user7FramePadding>0.5</user7FramePadding>
+    <user7FrameWidth>0.075</user7FrameWidth>
     <user7FrameRound>0</user7FrameRound>
     <user7FrameFgColor r="0" g="0" b="0" a="255"/>
     <user7FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1626,8 +1632,8 @@
     <user8Offset x="0" y="0"/>
     <user8OffsetType>1</user8OffsetType>
     <user8FrameType>0</user8FrameType>
-    <user8FramePadding>0.2</user8FramePadding>
-    <user8FrameWidth>0.1</user8FrameWidth>
+    <user8FramePadding>0.5</user8FramePadding>
+    <user8FrameWidth>0.075</user8FrameWidth>
     <user8FrameRound>0</user8FrameRound>
     <user8FrameFgColor r="0" g="0" b="0" a="255"/>
     <user8FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1643,8 +1649,8 @@
     <user9Offset x="0" y="0"/>
     <user9OffsetType>1</user9OffsetType>
     <user9FrameType>0</user9FrameType>
-    <user9FramePadding>0.2</user9FramePadding>
-    <user9FrameWidth>0.1</user9FrameWidth>
+    <user9FramePadding>0.5</user9FramePadding>
+    <user9FrameWidth>0.075</user9FrameWidth>
     <user9FrameRound>0</user9FrameRound>
     <user9FrameFgColor r="0" g="0" b="0" a="255"/>
     <user9FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1660,8 +1666,8 @@
     <user10Offset x="0" y="0"/>
     <user10OffsetType>1</user10OffsetType>
     <user10FrameType>0</user10FrameType>
-    <user10FramePadding>0.2</user10FramePadding>
-    <user10FrameWidth>0.1</user10FrameWidth>
+    <user10FramePadding>0.5</user10FramePadding>
+    <user10FrameWidth>0.075</user10FrameWidth>
     <user10FrameRound>0</user10FrameRound>
     <user10FrameFgColor r="0" g="0" b="0" a="255"/>
     <user10FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1677,8 +1683,8 @@
     <user11Offset x="0" y="0"/>
     <user11OffsetType>1</user11OffsetType>
     <user11FrameType>0</user11FrameType>
-    <user11FramePadding>0.2</user11FramePadding>
-    <user11FrameWidth>0.1</user11FrameWidth>
+    <user11FramePadding>0.5</user11FramePadding>
+    <user11FrameWidth>0.075</user11FrameWidth>
     <user11FrameRound>0</user11FrameRound>
     <user11FrameFgColor r="0" g="0" b="0" a="255"/>
     <user11FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1694,8 +1700,8 @@
     <user12Offset x="0" y="0"/>
     <user12OffsetType>1</user12OffsetType>
     <user12FrameType>0</user12FrameType>
-    <user12FramePadding>0.2</user12FramePadding>
-    <user12FrameWidth>0.1</user12FrameWidth>
+    <user12FramePadding>0.5</user12FramePadding>
+    <user12FrameWidth>0.075</user12FrameWidth>
     <user12FrameRound>0</user12FrameRound>
     <user12FrameFgColor r="0" g="0" b="0" a="255"/>
     <user12FrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1717,14 +1723,39 @@
     <letRingDashGapLen>8.17</letRingDashGapLen>
     <letRingText>let ring</letRingText>
     <letRingFrameType>0</letRingFrameType>
-    <letRingFramePadding>0.2</letRingFramePadding>
-    <letRingFrameWidth>0.1</letRingFrameWidth>
+    <letRingFramePadding>0.5</letRingFramePadding>
+    <letRingFrameWidth>0.075</letRingFrameWidth>
     <letRingFrameRound>0</letRingFrameRound>
     <letRingFrameFgColor r="0" g="0" b="0" a="255"/>
     <letRingFrameBgColor r="255" g="255" b="255" a="0"/>
     <letRingPosition>left</letRingPosition>
     <letRingEndHookType>3</letRingEndHookType>
     <letRingOffset x="0" y="0"/>
+    <whammyBarFontFace>Times New Roman</whammyBarFontFace>
+    <whammyBarFontSize>10</whammyBarFontSize>
+    <whammyBarLineSpacing>1</whammyBarLineSpacing>
+    <whammyBarFontSpatiumDependent>1</whammyBarFontSpatiumDependent>
+    <whammyBarFontStyle>0</whammyBarFontStyle>
+    <whammyBarColor r="0" g="0" b="0" a="255"/>
+    <whammyBarTextAlign>left,center</whammyBarTextAlign>
+    <whammyBarHookHeight>0.5</whammyBarHookHeight>
+    <whammyBarPlacement>1</whammyBarPlacement>
+    <whammyBarPosAbove x="0" y="0"/>
+    <whammyBarPosBelow x="0" y="0"/>
+    <whammyBarLineWidth>0.0918</whammyBarLineWidth>
+    <whammyBarLineStyle>dashed</whammyBarLineStyle>
+    <whammyBarDashLineLen>8.17</whammyBarDashLineLen>
+    <whammyBarDashGapLen>8.17</whammyBarDashGapLen>
+    <whammyBarText>w/bar</whammyBarText>
+    <whammyBarFrameType>0</whammyBarFrameType>
+    <whammyBarFramePadding>0.5</whammyBarFramePadding>
+    <whammyBarFrameWidth>0.075</whammyBarFrameWidth>
+    <whammyBarFrameRound>0</whammyBarFrameRound>
+    <whammyBarFrameFgColor r="0" g="0" b="0" a="255"/>
+    <whammyBarFrameBgColor r="255" g="255" b="255" a="0"/>
+    <whammyBarPosition>left</whammyBarPosition>
+    <whammyBarEndHookType>3</whammyBarEndHookType>
+    <whammyBarOffset x="0" y="0"/>
     <palmMuteFontFace>Times New Roman</palmMuteFontFace>
     <palmMuteFontSize>10</palmMuteFontSize>
     <palmMuteLineSpacing>1</palmMuteLineSpacing>
@@ -1742,8 +1773,8 @@
     <palmMuteDashGapLen>8.17</palmMuteDashGapLen>
     <palmMuteText>P.M.</palmMuteText>
     <palmMuteFrameType>0</palmMuteFrameType>
-    <palmMuteFramePadding>0.2</palmMuteFramePadding>
-    <palmMuteFrameWidth>0.1</palmMuteFrameWidth>
+    <palmMuteFramePadding>0.5</palmMuteFramePadding>
+    <palmMuteFrameWidth>0.075</palmMuteFrameWidth>
     <palmMuteFrameRound>0</palmMuteFrameRound>
     <palmMuteFrameFgColor r="0" g="0" b="0" a="255"/>
     <palmMuteFrameBgColor r="255" g="255" b="255" a="0"/>
@@ -1825,14 +1856,14 @@
     <harpPedalDiagramMusicalSymbolSize>10</harpPedalDiagramMusicalSymbolSize>
     <harpPedalTextDiagramMusicalSymbolSize>8</harpPedalTextDiagramMusicalSymbolSize>
     <headerMusicalSymbolSize>12</headerMusicalSymbolSize>
-    <instrumentChangeMusicalSymbolSize>10</instrumentChangeMusicalSymbolSize>
+    <instrumentChangeMusicalSymbolSize>11.5</instrumentChangeMusicalSymbolSize>
     <letRingMusicalSymbolSize>10</letRingMusicalSymbolSize>
     <lhGuitarFingeringMusicalSymbolSize>8</lhGuitarFingeringMusicalSymbolSize>
     <longInstrumentMusicalSymbolSize>11.5</longInstrumentMusicalSymbolSize>
     <lyricistMusicalSymbolSize>12</lyricistMusicalSymbolSize>
     <lyricsEvenMusicalSymbolSize>10</lyricsEvenMusicalSymbolSize>
     <lyricsOddMusicalSymbolSize>10</lyricsOddMusicalSymbolSize>
-    <measureNumberAlternateMusicalSymbolSize>10</measureNumberAlternateMusicalSymbolSize>
+    <measureNumberAlternateMusicalSymbolSize>8.3</measureNumberAlternateMusicalSymbolSize>
     <measureNumberMusicalSymbolSize>8.3</measureNumberMusicalSymbolSize>
     <metronomeMusicalSymbolSize>10</metronomeMusicalSymbolSize>
     <mmRestRangeMusicalSymbolSize>8</mmRestRangeMusicalSymbolSize>
@@ -1841,11 +1872,12 @@
     <ottavaMusicalSymbolSize>10</ottavaMusicalSymbolSize>
     <pageNumberMusicalSymbolSize>14</pageNumberMusicalSymbolSize>
     <palmMuteMusicalSymbolSize>10</palmMuteMusicalSymbolSize>
+    <whammyBarMusicalSymbolSize>10</whammyBarMusicalSymbolSize>
     <partInstrumentMusicalSymbolSize>14</partInstrumentMusicalSymbolSize>
     <pedalMusicalSymbolSize>10</pedalMusicalSymbolSize>
     <rehearsalMarkMusicalSymbolSize>11.5</rehearsalMarkMusicalSymbolSize>
     <repeatLeftMusicalSymbolSize>18</repeatLeftMusicalSymbolSize>
-    <repeatPlayCountMusicalSymbolSize>10</repeatPlayCountMusicalSymbolSize>
+    <repeatPlayCountMusicalSymbolSize>11.5</repeatPlayCountMusicalSymbolSize>
     <repeatRightMusicalSymbolSize>18</repeatRightMusicalSymbolSize>
     <rhGuitarFingeringMusicalSymbolSize>8</rhGuitarFingeringMusicalSymbolSize>
     <romanNumeralMusicalSymbolSize>10</romanNumeralMusicalSymbolSize>
@@ -1859,7 +1891,7 @@
     <systemTextMusicalSymbolSize>10</systemTextMusicalSymbolSize>
     <tabFretNumberMusicalSymbolSize>9</tabFretNumberMusicalSymbolSize>
     <tempoChangeMusicalSymbolSize>11.5</tempoChangeMusicalSymbolSize>
-    <tempoMusicalSymbolSize>18</tempoMusicalSymbolSize>
+    <tempoMusicalSymbolSize>17.4</tempoMusicalSymbolSize> <!-- 18 (Finale default) * default to default scaling factor (.82677) / finale default scaling (82 / 96) -->
     <textLineMusicalSymbolSize>10</textLineMusicalSymbolSize>
     <titleMusicalSymbolSize>24</titleMusicalSymbolSize>
     <translatorMusicalSymbolSize>12</translatorMusicalSymbolSize>
@@ -1892,10 +1924,67 @@
     <showCourtesiesAfterCancellingOtherJumps>0</showCourtesiesAfterCancellingOtherJumps>
     <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
     <smallParens>1</smallParens>
+    <harmonyParenUseSmuflSym>0</harmonyParenUseSmuflSym>
     <repeatPlayCountPreset>nx</repeatPlayCountPreset>
     <repeatPlayCountShow>0</repeatPlayCountShow>
     <repeatPlayCountShowSingleRepeats>0</repeatPlayCountShowSingleRepeats>
     <systemObjectsBelowBottomStaff>0</systemObjectsBelowBottomStaff>
+    <gradualTempoChangeBeginLineArrowHeight>1</gradualTempoChangeBeginLineArrowHeight>
+    <gradualTempoChangeBeginLineArrowWidth>0.5</gradualTempoChangeBeginLineArrowWidth>
+    <gradualTempoChangeEndLineArrowHeight>1</gradualTempoChangeEndLineArrowHeight>
+    <gradualTempoChangeEndLineArrowWidth>0.5</gradualTempoChangeEndLineArrowWidth>
+    <hairpinBeginLineArrowHeight>1</hairpinBeginLineArrowHeight>
+    <hairpinBeginLineArrowWidth>0.5</hairpinBeginLineArrowWidth>
+    <hairpinEndLineArrowHeight>1</hairpinEndLineArrowHeight>
+    <hairpinEndLineArrowWidth>0.5</hairpinEndLineArrowWidth>
+    <noteLineBeginLineArrowHeight>1</noteLineBeginLineArrowHeight>
+    <noteLineBeginLineArrowWidth>0.5</noteLineBeginLineArrowWidth>
+    <noteLineEndLineArrowHeight>1</noteLineEndLineArrowHeight>
+    <noteLineEndLineArrowWidth>0.5</noteLineEndLineArrowWidth>
+    <ottavaBeginLineArrowHeight>1</ottavaBeginLineArrowHeight>
+    <ottavaBeginLineArrowWidth>0.5</ottavaBeginLineArrowWidth>
+    <ottavaEndLineArrowHeight>1</ottavaEndLineArrowHeight>
+    <ottavaEndLineArrowWidth>0.5</ottavaEndLineArrowWidth>
+    <pedalBeginLineArrowHeight>1</pedalBeginLineArrowHeight>
+    <pedalBeginLineArrowWidth>0.5</pedalBeginLineArrowWidth>
+    <pedalEndLineArrowHeight>1</pedalEndLineArrowHeight>
+    <pedalEndLineArrowWidth>0.5</pedalEndLineArrowWidth>
+    <textLineBeginLineArrowHeight>1</textLineBeginLineArrowHeight>
+    <textLineBeginLineArrowWidth>0.5</textLineBeginLineArrowWidth>
+    <textLineEndLineArrowHeight>1</textLineEndLineArrowHeight>
+    <textLineEndLineArrowWidth>0.5</textLineEndLineArrowWidth>
+    <palmMuteBeginLineArrowHeight>1</palmMuteBeginLineArrowHeight>
+    <palmMuteBeginLineArrowWidth>0.5</palmMuteBeginLineArrowWidth>
+    <palmMuteEndLineArrowHeight>1</palmMuteEndLineArrowHeight>
+    <palmMuteEndLineArrowWidth>0.5</palmMuteEndLineArrowWidth>
+    <gradualTempoChangeBeginFilledArrowHeight>1</gradualTempoChangeBeginFilledArrowHeight>
+    <gradualTempoChangeBeginFilledArrowWidth>0.85</gradualTempoChangeBeginFilledArrowWidth>
+    <gradualTempoChangeEndFilledArrowHeight>1</gradualTempoChangeEndFilledArrowHeight>
+    <gradualTempoChangeEndFilledArrowWidth>0.85</gradualTempoChangeEndFilledArrowWidth>
+    <hairpinBeginFilledArrowHeight>1</hairpinBeginFilledArrowHeight>
+    <hairpinBeginFilledArrowWidth>0.85</hairpinBeginFilledArrowWidth>
+    <hairpinEndFilledArrowHeight>1</hairpinEndFilledArrowHeight>
+    <hairpinEndFilledArrowWidth>0.85</hairpinEndFilledArrowWidth>
+    <noteLineBeginFilledArrowHeight>1</noteLineBeginFilledArrowHeight>
+    <noteLineBeginFilledArrowWidth>0.85</noteLineBeginFilledArrowWidth>
+    <noteLineEndFilledArrowHeight>1</noteLineEndFilledArrowHeight>
+    <noteLineEndFilledArrowWidth>0.85</noteLineEndFilledArrowWidth>
+    <ottavaBeginFilledArrowHeight>1</ottavaBeginFilledArrowHeight>
+    <ottavaBeginFilledArrowWidth>0.85</ottavaBeginFilledArrowWidth>
+    <ottavaEndFilledArrowHeight>1</ottavaEndFilledArrowHeight>
+    <ottavaEndFilledArrowWidth>0.85</ottavaEndFilledArrowWidth>
+    <pedalBeginFilledArrowHeight>1</pedalBeginFilledArrowHeight>
+    <pedalBeginFilledArrowWidth>0.85</pedalBeginFilledArrowWidth>
+    <pedalEndFilledArrowHeight>1</pedalEndFilledArrowHeight>
+    <pedalEndFilledArrowWidth>0.85</pedalEndFilledArrowWidth>
+    <textLineBeginFilledArrowHeight>1</textLineBeginFilledArrowHeight>
+    <textLineBeginFilledArrowWidth>0.85</textLineBeginFilledArrowWidth>
+    <textLineEndFilledArrowHeight>1</textLineEndFilledArrowHeight>
+    <textLineEndFilledArrowWidth>0.85</textLineEndFilledArrowWidth>
+    <palmMuteBeginFilledArrowHeight>1</palmMuteBeginFilledArrowHeight>
+    <palmMuteBeginFilledArrowWidth>0.85</palmMuteBeginFilledArrowWidth>
+    <palmMuteEndFilledArrowHeight>1</palmMuteEndFilledArrowHeight>
+    <palmMuteEndFilledArrowWidth>0.85</palmMuteEndFilledArrowWidth>
     <spatium>1.6316</spatium>
     </Style>
   </museScore>
